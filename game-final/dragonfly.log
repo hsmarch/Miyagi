@@ -1,0 +1,17 @@
+14:40:43    0 ****************************************************
+14:40:43    0 ** Dragonfly version 4.4 **
+14:40:45    0 GameManager::run(): Can't keep up! frame_time 33 ms, split 554 ms
+14:40:45    5 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+14:40:45    6 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+14:40:46   22 GameManager::run(): Can't keep up! frame_time 33 ms, split 45 ms
+14:40:46   36 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+14:40:48   90 ResourceManager::loadSprite(): Loading sprite 'sprites/saucer-spr.txt'
+14:40:48   90 ResourceManager::loadSprite(): Loading sprite 'sprites/ship-spr.txt'
+14:40:48   90 ResourceManager::loadSprite(): Loading sprite 'sprites/bullet-spr.txt'
+14:40:48   90 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'
+14:40:48   90 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
+14:40:48   90 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
+14:40:48   90 Pause::Pause(): Pause enabled.  Press any other key to resume.
+14:40:54  165 WorldManager::shutDown(): Successfully stopped.
+14:40:54  165 ** Game stopped **
+14:40:54  165 ****************************************************
