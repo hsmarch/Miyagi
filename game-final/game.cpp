@@ -49,12 +49,13 @@ int main(int argc, char *argv[]) {
 
 // Load resources (sprites, sound effects, music).
 void loadResources(void) {
-  RM.loadSprite("sprites/up_arrow_spr.txt", "up");
+  RM.loadSprite("sprites/up_arrow_spr.txt", "up_arrow");
   RM.loadSprite("sprites/down_arrow_spr.txt", "down");
   RM.loadSprite("sprites/left_arrow_spr.txt", "left");
   RM.loadSprite("sprites/right_arrow_spr.txt", "right");
   RM.loadSprite("sprites/gamestart-spr.txt", "gamestart");
   RM.loadSprite("sprites/gameover-spr.txt", "gameover");
+  RM.loadSprite("sprites/player_spr.txt", "player");
   RM.loadSound("sounds/fire.wav", "fire");
   RM.loadSound("sounds/explode.wav", "explode");
   RM.loadSound("sounds/nuke.wav", "nuke");
@@ -65,10 +66,7 @@ void loadResources(void) {
 // Populate world with some objects.
 void populateWorld(void) {
 
-  // Spawn some Stars.
-  for (int i=0; i<16; i++) 
-    new Star;
-   
+		
   // Create GameStart object.
   new GameStart();
 }

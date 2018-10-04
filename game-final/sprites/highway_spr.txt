@@ -1,0 +1,10 @@
+frames 1
+width 28
+height 4
+color blue
+|      |       |    |      |
+|      |       |    |      |
+|      |       |    |      |
+|      |       |    |      |
+end
+eof

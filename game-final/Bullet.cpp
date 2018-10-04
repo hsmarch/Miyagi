@@ -23,12 +23,12 @@ Bullet::Bullet(df::Vector hero_pos) {
     setSpriteSlowdown(5);		
   }
 
-  // Make the Bullets soft so can pass through Hero.
+  // Make the Bullets soft so can pass through player.
   setSolidness(df::SOFT);
   // Set other object properties.
   setType("Bullet");
 
-  // Set starting location, based on hero's position passed in.
+  // Set starting location, based on player's position passed in.
   df::Vector p(hero_pos.getX()+3, hero_pos.getY());
   setPosition(p);
 }
