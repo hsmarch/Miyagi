@@ -23,17 +23,26 @@ up_arrow::up_arrow() {
     LM.writeLog("Saucer::Saucer(): Warning! Sprite '%s' not found", "up_arrow");
   else {
     setSprite(p_temp_sprite, true);
-    setSpriteSlowdown(4);		
+    setSpriteSlowdown(4);
   }
 
-  // Set object type.
+  // Set object type.`
   setType("up_arrow");
   setSolidness(df::SPECTRAL);
-  setPosition(df::Vector(WM.getBoundary().getHorizontal() / 2,0));
+  setPosition(df::Vector((WM.getBoundary().getHorizontal() / 2)+4,0));
+  //setBox(df::Box(this->getPosition(), this->getSprite()->getWidth(), this->getSprite()->getHeight()));
+  //down W/2+10
   // Set speed in horizontal direction.
   setVelocity(df::Vector(0,0.125)); // 1 space down every 8 frames
 }
 up_arrow::~up_arrow() {
+<<<<<<< HEAD
+=======
+  // Send "view" event with points to interested ViewObjects.
+  // Add 10 points.
+  df::EventView ev(POINTS_STRING, -10, true);
+  WM.onEvent(&ev);
+>>>>>>> 3dc8b33cbad42ba4cbf1d7f5c24efe1832376639
 }
 
 

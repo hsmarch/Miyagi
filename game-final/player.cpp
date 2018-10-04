@@ -23,14 +23,15 @@ player::player() {
 	// Link to "ship" sprite.
 	df::Sprite *p_temp_sprite;
 	p_temp_sprite = RM.getSprite("player");
+
 	if (!p_temp_sprite)
 		LM.writeLog("player::player(): Warning! Sprite '%s' not found", "ship");
 	else {
 		setSprite(p_temp_sprite, true);
-		
+
 		setSpriteSlowdown(3);  // 1/3 speed animation.
 		setTransparency();	   // Transparent sprite.
-		
+
 	}
 
 	// Player controls player, so register for input events.
@@ -43,6 +44,7 @@ player::player() {
 	// Set starting location.
 	df::Vector p(WM.getBoundary().getHorizontal() / 2, WM.getBoundary().getVertical() - 1);
 	setPosition(p);
+	//
 }
 
 player::~player() {
@@ -66,28 +68,31 @@ int player::eventHandler(const df::Event *p_e) {
 
 // Take appropriate action according to key pressed.
 void player::kbd(const df::EventKeyboard *p_keyboard_event) {
+	//setBox(df::Box(this->getPosition(), this->getSprite()->getWidth(), this->getSprite()->getHeight()));
 	df::ObjectList all_objects = WM.getAllObjects();
 	df::ObjectListIterator oli(&all_objects);
 	df::ObjectList moving_arrows;
 	moving_arrows.clear();
 	for (oli.first(); !oli.isDone(); oli.next()) {
-		if (oli.currentObject()->getType() == "up_arrow") {
+		if (oli.currentObject()->getType() == "up_arrow" || oli.currentObject()->getType() == "down_arrow" || oli.currentObject()->getType() == "left_arrow" || oli.currentObject()->getType() == "right_arrow") {
 			moving_arrows.insert(oli.currentObject());
 			LM.writeLog("Adding to moving arrows list");
 			LM.writeLog("%p", oli.currentObject());
 		}
 	}
-	
+
 	switch (p_keyboard_event->getKey()) {
 		//check intersect boxes with all objs
 	case df::Keyboard::W:       // up
 		if (p_keyboard_event->getKeyboardAction() == df::KEY_DOWN) {
 			LM.writeLog("UP PRESSED");
 			df::ObjectListIterator moving_arrows_iterator(&moving_arrows);
-			for (moving_arrows_iterator.first(); !moving_arrows_iterator.isDone(); moving_arrows_iterator.next())
-			{
+			for (moving_arrows_iterator.first(); !moving_arrows_iterator.isDone(); moving_arrows_iterator.next()){
+				//moving_arrows_iterator.currentObject()->setBox(df::Box(moving_arrows_iterator.currentObject()->getPosition(), moving_arrows_iterator.currentObject()->getSprite()->getWidth(), moving_arrows_iterator.currentObject()->getSprite()->getHeight()));
 				LM.writeLog("%p", moving_arrows_iterator.currentObject());
+				LM.writeLog("%d,%d", moving_arrows_iterator.currentObject()->getBox().getHorizontal(), moving_arrows_iterator.currentObject()->getBox().getVertical());
 				LM.writeLog("Checking Collision");
+<<<<<<< HEAD
 				if ( moving_arrows_iterator.currentObject()->getPosition().getY()+5 == this->getPosition().getY()) {
 					LM.writeLog("Verticals good!");
 					WM.markForDelete(moving_arrows_iterator.currentObject());
@@ -97,9 +102,15 @@ void player::kbd(const df::EventKeyboard *p_keyboard_event) {
 					int accuracy = 10 - abs(this->getPosition().getY() - moving_arrows_iterator.currentObject()->getPosition().getY());
 					df::EventView ev(POINTS_STRING, 10*accuracy , true);
 					WM.onEvent(&ev);
+=======
+				if (moving_arrows_iterator.currentObject()->getType() == "up_arrow") {
+					if (moving_arrows_iterator.currentObject()->getPosition().getY() + 1 == this->getPosition().getY()) {
+						LM.writeLog("Verticals good!");
+						WM.markForDelete(moving_arrows_iterator.currentObject());
+					}
+					oli.next();
+>>>>>>> 3dc8b33cbad42ba4cbf1d7f5c24efe1832376639
 				}
-			
-				oli.next();
 			}
 
 			break;
