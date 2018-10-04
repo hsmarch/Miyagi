@@ -1,480 +1,314 @@
-19:02:03    0 ****************************************************
-19:02:03    0 ** Dragonfly version 4.4 **
-19:02:04    0 GameManager::run(): Can't keep up! frame_time 33 ms, split 91 ms
-19:02:05   38 ResourceManager::loadSprite(): Loading sprite 'sprites/up_arrow_spr.txt'
-19:02:05   38 ResourceManager::loadSprite(): Loading sprite 'sprites/down_arrow_spr.txt'
-19:02:05   38 ResourceManager::loadSprite(): Loading sprite 'sprites/left_arrow_spr.txt'
-19:02:05   38 ResourceManager::loadSprite(): Loading sprite 'sprites/right_arrow_spr.txt'
-19:02:05   38 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
-19:02:05   38 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
-19:02:05   38 ResourceManager::loadSprite(): Loading sprite 'sprites/player_spr.txt'
-19:02:06   38 Pause::Pause(): Pause enabled.  Press any other key to resume.
-19:02:06    0 Adding to moving arrows list
-19:02:06    0 00000153CF154CF0
-19:02:06    0 Adding to moving arrows list
-19:02:06    0 00000153CF154CF0
-19:02:06    2 Adding to moving arrows list
-19:02:06    2 00000153CF154CF0
-19:02:06    2 Adding to moving arrows list
-19:02:06    2 00000153CF154CF0
-19:02:06   11 Adding to moving arrows list
-19:02:06   11 00000153CF154CF0
-19:02:06   11 Adding to moving arrows list
-19:02:06   11 00000153CF154CF0
-19:02:06   11 UP PRESSED
-19:02:06   11 00000153CF154CF0
-19:02:06   11 Checking Collision
-19:02:06   12 Adding to moving arrows list
-19:02:06   12 00000153CF154CF0
-19:02:06   12 UP PRESSED
-19:02:06   12 00000153CF154CF0
-19:02:06   12 Checking Collision
-19:02:06   13 Adding to moving arrows list
-19:02:06   13 00000153CF154CF0
-19:02:06   13 UP PRESSED
-19:02:06   13 00000153CF154CF0
-19:02:06   13 Checking Collision
-19:02:06   14 Adding to moving arrows list
-19:02:06   14 00000153CF154CF0
-19:02:06   18 Adding to moving arrows list
-19:02:06   18 00000153CF154CF0
-19:02:06   18 Adding to moving arrows list
-19:02:06   18 00000153CF154CF0
-19:02:06   18 UP PRESSED
-19:02:06   18 00000153CF154CF0
-19:02:06   18 Checking Collision
-19:02:06   19 Adding to moving arrows list
-19:02:06   19 00000153CF154CF0
-19:02:06   19 UP PRESSED
-19:02:06   19 00000153CF154CF0
-19:02:06   19 Checking Collision
-19:02:06   20 Adding to moving arrows list
-19:02:06   20 00000153CF154CF0
-19:02:06   25 Adding to moving arrows list
-19:02:06   25 00000153CF154CF0
-19:02:06   25 Adding to moving arrows list
-19:02:06   25 00000153CF154CF0
-19:02:06   25 UP PRESSED
-19:02:06   25 00000153CF154CF0
-19:02:06   25 Checking Collision
-19:02:06   26 Adding to moving arrows list
-19:02:06   26 00000153CF154CF0
-19:02:06   26 UP PRESSED
-19:02:06   26 00000153CF154CF0
-19:02:06   26 Checking Collision
-19:02:06   27 Adding to moving arrows list
-19:02:06   27 00000153CF154CF0
-19:02:06   27 UP PRESSED
-19:02:06   27 00000153CF154CF0
-19:02:06   27 Checking Collision
-19:02:06   28 Adding to moving arrows list
-19:02:06   28 00000153CF154CF0
-19:02:07   30 Adding to moving arrows list
-19:02:07   30 00000153CF154CF0
-19:02:07   30 UP PRESSED
-19:02:07   30 00000153CF154CF0
-19:02:07   30 Checking Collision
-19:02:07   31 Adding to moving arrows list
-19:02:07   31 00000153CF154CF0
-19:02:07   31 Adding to moving arrows list
-19:02:07   31 00000153CF154CF0
-19:02:07   31 UP PRESSED
-19:02:07   31 00000153CF154CF0
-19:02:07   31 Checking Collision
-19:02:07   32 Adding to moving arrows list
-19:02:07   32 00000153CF154CF0
-19:02:07   32 UP PRESSED
-19:02:07   32 00000153CF154CF0
-19:02:07   32 Checking Collision
-19:02:07   33 Adding to moving arrows list
-19:02:07   33 00000153CF154CF0
-19:02:07   35 Adding to moving arrows list
-19:02:07   35 00000153CF154CF0
-19:02:07   35 Adding to moving arrows list
-19:02:07   35 00000153CF154CF0
-19:02:07   35 UP PRESSED
-19:02:07   35 00000153CF154CF0
-19:02:07   35 Checking Collision
-19:02:07   36 Adding to moving arrows list
-19:02:07   36 00000153CF154CF0
-19:02:07   36 UP PRESSED
-19:02:07   36 00000153CF154CF0
-19:02:07   36 Checking Collision
-19:02:07   37 Adding to moving arrows list
-19:02:07   37 00000153CF154CF0
-19:02:07   37 UP PRESSED
-19:02:07   37 00000153CF154CF0
-19:02:07   37 Checking Collision
-19:02:07   38 Adding to moving arrows list
-19:02:07   38 00000153CF154CF0
-19:02:07   38 UP PRESSED
-19:02:07   38 00000153CF154CF0
-19:02:07   38 Checking Collision
-19:02:07   39 Adding to moving arrows list
-19:02:07   39 00000153CF154CF0
-19:02:07   39 UP PRESSED
-19:02:07   39 00000153CF154CF0
-19:02:07   39 Checking Collision
-19:02:07   40 Adding to moving arrows list
-19:02:07   40 00000153CF154CF0
-19:02:07   40 UP PRESSED
-19:02:07   40 00000153CF154CF0
-19:02:07   40 Checking Collision
-19:02:07   41 Adding to moving arrows list
-19:02:07   41 00000153CF154CF0
-19:02:07   41 UP PRESSED
-19:02:07   41 00000153CF154CF0
-19:02:07   41 Checking Collision
-19:02:07   42 Adding to moving arrows list
-19:02:07   42 00000153CF154CF0
-19:02:07   42 UP PRESSED
-19:02:07   42 00000153CF154CF0
-19:02:07   42 Checking Collision
-19:02:07   43 Adding to moving arrows list
-19:02:07   43 00000153CF154CF0
-19:02:07   43 UP PRESSED
-19:02:07   43 00000153CF154CF0
-19:02:07   43 Checking Collision
-19:02:07   44 Adding to moving arrows list
-19:02:07   44 00000153CF154CF0
-19:02:07   51 Adding to moving arrows list
-19:02:07   51 00000153CF154CF0
-19:02:07   51 Adding to moving arrows list
-19:02:07   51 00000153CF154CF0
-19:02:07   51 UP PRESSED
-19:02:07   51 00000153CF154CF0
-19:02:07   51 Checking Collision
-19:02:07   53 Adding to moving arrows list
-19:02:07   53 00000153CF154CF0
-19:02:07   55 Adding to moving arrows list
-19:02:07   55 00000153CF154CF0
-19:02:07   55 Adding to moving arrows list
-19:02:07   55 00000153CF154CF0
-19:02:07   55 UP PRESSED
-19:02:07   55 00000153CF154CF0
-19:02:07   55 Checking Collision
-19:02:07   56 Adding to moving arrows list
-19:02:07   56 00000153CF154CF0
-19:02:07   56 UP PRESSED
-19:02:07   56 00000153CF154CF0
-19:02:07   56 Checking Collision
-19:02:07   58 Adding to moving arrows list
-19:02:07   58 00000153CF154CF0
-19:02:08   60 Adding to moving arrows list
-19:02:08   60 00000153CF154CF0
-19:02:08   60 Adding to moving arrows list
-19:02:08   60 00000153CF154CF0
-19:02:08   60 UP PRESSED
-19:02:08   60 00000153CF154CF0
-19:02:08   60 Checking Collision
-19:02:08   61 Adding to moving arrows list
-19:02:08   61 00000153CF154CF0
-19:02:08   61 UP PRESSED
-19:02:08   61 00000153CF154CF0
-19:02:08   61 Checking Collision
-19:02:08   62 Adding to moving arrows list
-19:02:08   62 00000153CF154CF0
-19:02:08   64 Adding to moving arrows list
-19:02:08   64 00000153CF154CF0
-19:02:08   64 Adding to moving arrows list
-19:02:08   64 00000153CF154CF0
-19:02:08   64 UP PRESSED
-19:02:08   64 00000153CF154CF0
-19:02:08   64 Checking Collision
-19:02:08   65 Adding to moving arrows list
-19:02:08   65 00000153CF154CF0
-19:02:08   65 UP PRESSED
-19:02:08   65 00000153CF154CF0
-19:02:08   65 Checking Collision
-19:02:08   66 Adding to moving arrows list
-19:02:08   66 00000153CF154CF0
-19:02:08   68 Adding to moving arrows list
-19:02:08   68 00000153CF154CF0
-19:02:08   68 Adding to moving arrows list
-19:02:08   68 00000153CF154CF0
-19:02:08   68 UP PRESSED
-19:02:08   68 00000153CF154CF0
-19:02:08   68 Checking Collision
-19:02:08   69 Adding to moving arrows list
-19:02:08   69 00000153CF154CF0
-19:02:08   69 UP PRESSED
-19:02:08   69 00000153CF154CF0
-19:02:08   69 Checking Collision
-19:02:08   70 Adding to moving arrows list
-19:02:08   70 00000153CF154CF0
-19:02:08   70 UP PRESSED
-19:02:08   70 00000153CF154CF0
-19:02:08   70 Checking Collision
-19:02:08   71 Adding to moving arrows list
-19:02:08   71 00000153CF154CF0
-19:02:08   73 Adding to moving arrows list
-19:02:08   73 00000153CF154CF0
-19:02:08   73 Adding to moving arrows list
-19:02:08   73 00000153CF154CF0
-19:02:08   73 UP PRESSED
-19:02:08   73 00000153CF154CF0
-19:02:08   73 Checking Collision
-19:02:08   74 Adding to moving arrows list
-19:02:08   74 00000153CF154CF0
-19:02:08   74 UP PRESSED
-19:02:08   74 00000153CF154CF0
-19:02:08   74 Checking Collision
-19:02:08   75 Adding to moving arrows list
-19:02:08   75 00000153CF154CF0
-19:02:08   77 Adding to moving arrows list
-19:02:08   77 00000153CF154CF0
-19:02:08   77 Adding to moving arrows list
-19:02:08   77 00000153CF154CF0
-19:02:08   77 UP PRESSED
-19:02:08   77 00000153CF154CF0
-19:02:08   77 Checking Collision
-19:02:08   78 Adding to moving arrows list
-19:02:08   78 00000153CF154CF0
-19:02:08   78 UP PRESSED
-19:02:08   78 00000153CF154CF0
-19:02:08   78 Checking Collision
-19:02:08   79 Adding to moving arrows list
-19:02:08   79 00000153CF154CF0
-19:02:08   81 Adding to moving arrows list
-19:02:08   81 00000153CF154CF0
-19:02:08   81 Adding to moving arrows list
-19:02:08   81 00000153CF154CF0
-19:02:08   81 UP PRESSED
-19:02:08   81 00000153CF154CF0
-19:02:08   81 Checking Collision
-19:02:08   82 Adding to moving arrows list
-19:02:08   82 00000153CF154CF0
-19:02:08   82 UP PRESSED
-19:02:08   82 00000153CF154CF0
-19:02:08   82 Checking Collision
-19:02:08   83 Adding to moving arrows list
-19:02:08   83 00000153CF154CF0
-19:02:08   86 Adding to moving arrows list
-19:02:08   86 00000153CF154CF0
-19:02:08   86 Adding to moving arrows list
-19:02:08   86 00000153CF154CF0
-19:02:08   86 UP PRESSED
-19:02:08   86 00000153CF154CF0
-19:02:08   86 Checking Collision
-19:02:08   87 Adding to moving arrows list
-19:02:08   87 00000153CF154CF0
-19:02:08   87 UP PRESSED
-19:02:08   87 00000153CF154CF0
-19:02:08   87 Checking Collision
-19:02:08   88 Adding to moving arrows list
-19:02:08   88 00000153CF154CF0
-19:02:09   90 Adding to moving arrows list
-19:02:09   90 00000153CF154CF0
-19:02:09   90 Adding to moving arrows list
-19:02:09   90 00000153CF154CF0
-19:02:09   90 UP PRESSED
-19:02:09   90 00000153CF154CF0
-19:02:09   90 Checking Collision
-19:02:09   91 Adding to moving arrows list
-19:02:09   91 00000153CF154CF0
-19:02:09   91 UP PRESSED
-19:02:09   91 00000153CF154CF0
-19:02:09   91 Checking Collision
-19:02:09   92 Adding to moving arrows list
-19:02:09   92 00000153CF154CF0
-19:02:09   92 UP PRESSED
-19:02:09   92 00000153CF154CF0
-19:02:09   92 Checking Collision
-19:02:09   93 Adding to moving arrows list
-19:02:09   93 00000153CF154CF0
-19:02:09   95 Adding to moving arrows list
-19:02:09   95 00000153CF154CF0
-19:02:09   95 Adding to moving arrows list
-19:02:09   95 00000153CF154CF0
-19:02:09   95 UP PRESSED
-19:02:09   95 00000153CF154CF0
-19:02:09   95 Checking Collision
-19:02:09   96 Adding to moving arrows list
-19:02:09   96 00000153CF154CF0
-19:02:09   96 UP PRESSED
-19:02:09   96 00000153CF154CF0
-19:02:09   96 Checking Collision
-19:02:09   97 Adding to moving arrows list
-19:02:09   97 00000153CF154CF0
-19:02:09   97 UP PRESSED
-19:02:09   97 00000153CF154CF0
-19:02:09   97 Checking Collision
-19:02:09   98 Adding to moving arrows list
-19:02:09   98 00000153CF154CF0
-19:02:09  100 Adding to moving arrows list
-19:02:09  100 00000153CF154CF0
-19:02:09  100 Adding to moving arrows list
-19:02:09  100 00000153CF154CF0
-19:02:09  100 UP PRESSED
-19:02:09  100 00000153CF154CF0
-19:02:09  100 Checking Collision
-19:02:09  101 Adding to moving arrows list
-19:02:09  101 00000153CF154CF0
-19:02:09  101 UP PRESSED
-19:02:09  101 00000153CF154CF0
-19:02:09  101 Checking Collision
-19:02:09  102 Adding to moving arrows list
-19:02:09  102 00000153CF154CF0
-19:02:09  102 UP PRESSED
-19:02:09  102 00000153CF154CF0
-19:02:09  102 Checking Collision
-19:02:09  103 Adding to moving arrows list
-19:02:09  103 00000153CF154CF0
-19:02:09  104 Adding to moving arrows list
-19:02:09  104 00000153CF154CF0
-19:02:09  104 Adding to moving arrows list
-19:02:09  104 00000153CF154CF0
-19:02:09  104 UP PRESSED
-19:02:09  104 00000153CF154CF0
-19:02:09  104 Checking Collision
-19:02:09  105 Adding to moving arrows list
-19:02:09  105 00000153CF154CF0
-19:02:09  105 UP PRESSED
-19:02:09  105 00000153CF154CF0
-19:02:09  105 Checking Collision
-19:02:09  106 Adding to moving arrows list
-19:02:09  106 00000153CF154CF0
-19:02:09  106 UP PRESSED
-19:02:09  106 00000153CF154CF0
-19:02:09  106 Checking Collision
-19:02:09  107 Adding to moving arrows list
-19:02:09  107 00000153CF154CF0
-19:02:09  109 Adding to moving arrows list
-19:02:09  109 00000153CF154CF0
-19:02:09  109 Adding to moving arrows list
-19:02:09  109 00000153CF154CF0
-19:02:09  109 UP PRESSED
-19:02:09  109 00000153CF154CF0
-19:02:09  109 Checking Collision
-19:02:09  110 Adding to moving arrows list
-19:02:09  110 00000153CF154CF0
-19:02:09  110 UP PRESSED
-19:02:09  110 00000153CF154CF0
-19:02:09  110 Checking Collision
-19:02:09  111 Adding to moving arrows list
-19:02:09  111 00000153CF154CF0
-19:02:09  113 Adding to moving arrows list
-19:02:09  113 00000153CF154CF0
-19:02:09  113 Adding to moving arrows list
-19:02:09  113 00000153CF154CF0
-19:02:09  113 UP PRESSED
-19:02:09  113 00000153CF154CF0
-19:02:09  113 Checking Collision
-19:02:09  114 Adding to moving arrows list
-19:02:09  114 00000153CF154CF0
-19:02:09  114 UP PRESSED
-19:02:09  114 00000153CF154CF0
-19:02:09  114 Checking Collision
-19:02:09  115 Adding to moving arrows list
-19:02:09  115 00000153CF154CF0
-19:02:09  117 Adding to moving arrows list
-19:02:09  117 00000153CF154CF0
-19:02:09  117 Adding to moving arrows list
-19:02:09  117 00000153CF154CF0
-19:02:09  117 UP PRESSED
-19:02:09  117 00000153CF154CF0
-19:02:09  117 Checking Collision
-19:02:09  118 Adding to moving arrows list
-19:02:09  118 00000153CF154CF0
-19:02:09  118 UP PRESSED
-19:02:09  118 00000153CF154CF0
-19:02:09  118 Checking Collision
-19:02:09  119 Adding to moving arrows list
-19:02:09  119 00000153CF154CF0
-19:02:09  119 UP PRESSED
-19:02:09  119 00000153CF154CF0
-19:02:09  119 Checking Collision
-19:02:10  120 Adding to moving arrows list
-19:02:10  120 00000153CF154CF0
-19:02:10  122 Adding to moving arrows list
-19:02:10  122 00000153CF154CF0
-19:02:10  122 Adding to moving arrows list
-19:02:10  122 00000153CF154CF0
-19:02:10  122 UP PRESSED
-19:02:10  122 00000153CF154CF0
-19:02:10  122 Checking Collision
-19:02:10  123 Adding to moving arrows list
-19:02:10  123 00000153CF154CF0
-19:02:10  123 UP PRESSED
-19:02:10  123 00000153CF154CF0
-19:02:10  123 Checking Collision
-19:02:10  124 Adding to moving arrows list
-19:02:10  124 00000153CF154CF0
-19:02:10  126 Adding to moving arrows list
-19:02:10  126 00000153CF154CF0
-19:02:10  126 Adding to moving arrows list
-19:02:10  126 00000153CF154CF0
-19:02:10  126 UP PRESSED
-19:02:10  126 00000153CF154CF0
-19:02:10  126 Checking Collision
-19:02:10  127 Adding to moving arrows list
-19:02:10  127 00000153CF154CF0
-19:02:10  127 UP PRESSED
-19:02:10  127 00000153CF154CF0
-19:02:10  127 Checking Collision
-19:02:10  128 Adding to moving arrows list
-19:02:10  128 00000153CF154CF0
-19:02:10  130 Adding to moving arrows list
-19:02:10  130 00000153CF154CF0
-19:02:10  130 Adding to moving arrows list
-19:02:10  130 00000153CF154CF0
-19:02:10  130 UP PRESSED
-19:02:10  130 00000153CF154CF0
-19:02:10  130 Checking Collision
-19:02:10  131 Adding to moving arrows list
-19:02:10  131 00000153CF154CF0
-19:02:10  131 UP PRESSED
-19:02:10  131 00000153CF154CF0
-19:02:10  131 Checking Collision
-19:02:10  132 Adding to moving arrows list
-19:02:10  132 00000153CF154CF0
-19:02:10  134 Adding to moving arrows list
-19:02:10  134 00000153CF154CF0
-19:02:10  134 Adding to moving arrows list
-19:02:10  134 00000153CF154CF0
-19:02:10  134 UP PRESSED
-19:02:10  134 00000153CF154CF0
-19:02:10  134 Checking Collision
-19:02:10  135 Adding to moving arrows list
-19:02:10  135 00000153CF154CF0
-19:02:10  135 UP PRESSED
-19:02:10  135 00000153CF154CF0
-19:02:10  135 Checking Collision
-19:02:10  136 Adding to moving arrows list
-19:02:10  136 00000153CF154CF0
-19:02:10  138 Adding to moving arrows list
-19:02:10  138 00000153CF154CF0
-19:02:10  138 Adding to moving arrows list
-19:02:10  138 00000153CF154CF0
-19:02:10  138 UP PRESSED
-19:02:10  138 00000153CF154CF0
-19:02:10  138 Checking Collision
-19:02:10  139 Adding to moving arrows list
-19:02:10  139 00000153CF154CF0
-19:02:10  139 UP PRESSED
-19:02:10  139 00000153CF154CF0
-19:02:10  139 Checking Collision
-19:02:10  140 Adding to moving arrows list
-19:02:10  140 00000153CF154CF0
-19:02:10  140 UP PRESSED
-19:02:10  140 00000153CF154CF0
-19:02:10  140 Checking Collision
-19:02:10  141 Adding to moving arrows list
-19:02:10  141 00000153CF154CF0
-19:02:10  143 Adding to moving arrows list
-19:02:10  143 00000153CF154CF0
-19:02:10  143 Adding to moving arrows list
-19:02:10  143 00000153CF154CF0
-19:02:10  143 UP PRESSED
-19:02:10  143 00000153CF154CF0
-19:02:10  143 Checking Collision
-19:02:10  144 Adding to moving arrows list
-19:02:10  144 00000153CF154CF0
-19:02:10  144 UP PRESSED
-19:02:10  144 00000153CF154CF0
-19:02:10  144 Checking Collision
-19:02:10  144 Verticals good!
-19:02:10  147 UP PRESSED
-19:02:10  148 UP PRESSED
-19:02:11  151 UP PRESSED
-19:02:11  152 UP PRESSED
+19:13:03    0 ****************************************************
+19:13:03    0 ** Dragonfly version 4.4 **
+19:13:04    0 GameManager::run(): Can't keep up! frame_time 33 ms, split 89 ms
+19:13:06   54 ResourceManager::loadSprite(): Loading sprite 'sprites/up_arrow_spr.txt'
+19:13:06   54 ResourceManager::loadSprite(): Loading sprite 'sprites/down_arrow_spr.txt'
+19:13:06   54 ResourceManager::loadSprite(): Loading sprite 'sprites/left_arrow_spr.txt'
+19:13:06   54 ResourceManager::loadSprite(): Loading sprite 'sprites/right_arrow_spr.txt'
+19:13:06   54 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
+19:13:06   54 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
+19:13:06   54 ResourceManager::loadSprite(): Loading sprite 'sprites/player_spr.txt'
+19:13:06   54 Pause::Pause(): Pause enabled.  Press any other key to resume.
+19:13:06    1 Adding to moving arrows list
+19:13:06    1 000001EF2DD9B4D0
+19:13:06    1 Adding to moving arrows list
+19:13:06    1 000001EF2DD9B4D0
+19:13:06    2 Adding to moving arrows list
+19:13:06    2 000001EF2DD9B4D0
+19:13:06    3 Adding to moving arrows list
+19:13:06    3 000001EF2DD9B4D0
+19:13:07   42 Adding to moving arrows list
+19:13:07   42 000001EF2DD9B4D0
+19:13:07   42 Adding to moving arrows list
+19:13:07   42 000001EF2DD9B4D0
+19:13:07   42 UP PRESSED
+19:13:07   42 000001EF2DD9B4D0
+19:13:07   42 Checking Collision
+19:13:07   43 Adding to moving arrows list
+19:13:07   43 000001EF2DD9B4D0
+19:13:07   43 UP PRESSED
+19:13:07   43 000001EF2DD9B4D0
+19:13:07   43 Checking Collision
+19:13:07   44 Adding to moving arrows list
+19:13:07   44 000001EF2DD9B4D0
+19:13:07   44 UP PRESSED
+19:13:07   44 000001EF2DD9B4D0
+19:13:07   44 Checking Collision
+19:13:07   45 Adding to moving arrows list
+19:13:07   45 000001EF2DD9B4D0
+19:13:07   45 UP PRESSED
+19:13:07   45 000001EF2DD9B4D0
+19:13:07   45 Checking Collision
+19:13:07   46 Adding to moving arrows list
+19:13:07   46 000001EF2DD9B4D0
+19:13:08   56 Adding to moving arrows list
+19:13:08   56 000001EF2DD9B4D0
+19:13:08   56 Adding to moving arrows list
+19:13:08   56 000001EF2DD9B4D0
+19:13:08   56 UP PRESSED
+19:13:08   56 000001EF2DD9B4D0
+19:13:08   56 Checking Collision
+19:13:08   57 Adding to moving arrows list
+19:13:08   57 000001EF2DD9B4D0
+19:13:08   57 UP PRESSED
+19:13:08   57 000001EF2DD9B4D0
+19:13:08   57 Checking Collision
+19:13:08   58 Adding to moving arrows list
+19:13:08   58 000001EF2DD9B4D0
+19:13:08   58 UP PRESSED
+19:13:08   58 000001EF2DD9B4D0
+19:13:08   58 Checking Collision
+19:13:08   59 Adding to moving arrows list
+19:13:08   59 000001EF2DD9B4D0
+19:13:08   59 UP PRESSED
+19:13:08   59 000001EF2DD9B4D0
+19:13:08   59 Checking Collision
+19:13:08   60 Adding to moving arrows list
+19:13:08   60 000001EF2DD9B4D0
+19:13:08   70 Adding to moving arrows list
+19:13:08   70 000001EF2DD9B4D0
+19:13:08   70 Adding to moving arrows list
+19:13:08   70 000001EF2DD9B4D0
+19:13:08   70 UP PRESSED
+19:13:08   70 000001EF2DD9B4D0
+19:13:08   70 Checking Collision
+19:13:08   71 Adding to moving arrows list
+19:13:08   71 000001EF2DD9B4D0
+19:13:08   71 UP PRESSED
+19:13:08   71 000001EF2DD9B4D0
+19:13:08   71 Checking Collision
+19:13:08   72 Adding to moving arrows list
+19:13:08   72 000001EF2DD9B4D0
+19:13:08   72 UP PRESSED
+19:13:08   72 000001EF2DD9B4D0
+19:13:08   72 Checking Collision
+19:13:08   73 Adding to moving arrows list
+19:13:08   73 000001EF2DD9B4D0
+19:13:08   73 UP PRESSED
+19:13:08   73 000001EF2DD9B4D0
+19:13:08   73 Checking Collision
+19:13:08   74 Adding to moving arrows list
+19:13:08   74 000001EF2DD9B4D0
+19:13:09   82 Adding to moving arrows list
+19:13:09   82 000001EF2DD9B4D0
+19:13:09   82 Adding to moving arrows list
+19:13:09   82 000001EF2DD9B4D0
+19:13:09   82 UP PRESSED
+19:13:09   82 000001EF2DD9B4D0
+19:13:09   82 Checking Collision
+19:13:09   83 Adding to moving arrows list
+19:13:09   83 000001EF2DD9B4D0
+19:13:09   83 UP PRESSED
+19:13:09   83 000001EF2DD9B4D0
+19:13:09   83 Checking Collision
+19:13:09   84 Adding to moving arrows list
+19:13:09   84 000001EF2DD9B4D0
+19:13:09   84 UP PRESSED
+19:13:09   84 000001EF2DD9B4D0
+19:13:09   84 Checking Collision
+19:13:09   85 Adding to moving arrows list
+19:13:09   85 000001EF2DD9B4D0
+19:13:09   85 UP PRESSED
+19:13:09   85 000001EF2DD9B4D0
+19:13:09   85 Checking Collision
+19:13:09   86 Adding to moving arrows list
+19:13:09   86 000001EF2DD9B4D0
+19:13:09   93 Adding to moving arrows list
+19:13:09   93 000001EF2DD9B4D0
+19:13:09   93 Adding to moving arrows list
+19:13:09   93 000001EF2DD9B4D0
+19:13:09   93 UP PRESSED
+19:13:09   93 000001EF2DD9B4D0
+19:13:09   93 Checking Collision
+19:13:09   94 Adding to moving arrows list
+19:13:09   94 000001EF2DD9B4D0
+19:13:09   94 UP PRESSED
+19:13:09   94 000001EF2DD9B4D0
+19:13:09   94 Checking Collision
+19:13:09   95 Adding to moving arrows list
+19:13:09   95 000001EF2DD9B4D0
+19:13:09   95 UP PRESSED
+19:13:09   95 000001EF2DD9B4D0
+19:13:09   95 Checking Collision
+19:13:09   96 Adding to moving arrows list
+19:13:09   96 000001EF2DD9B4D0
+19:13:09  100 Adding to moving arrows list
+19:13:09  100 000001EF2DD9B4D0
+19:13:09  100 Adding to moving arrows list
+19:13:09  100 000001EF2DD9B4D0
+19:13:09  100 UP PRESSED
+19:13:09  100 000001EF2DD9B4D0
+19:13:09  100 Checking Collision
+19:13:09  101 Adding to moving arrows list
+19:13:09  101 000001EF2DD9B4D0
+19:13:09  101 UP PRESSED
+19:13:09  101 000001EF2DD9B4D0
+19:13:09  101 Checking Collision
+19:13:09  102 Adding to moving arrows list
+19:13:09  102 000001EF2DD9B4D0
+19:13:09  102 UP PRESSED
+19:13:09  102 000001EF2DD9B4D0
+19:13:09  102 Checking Collision
+19:13:09  103 Adding to moving arrows list
+19:13:09  103 000001EF2DD9B4D0
+19:13:09  106 Adding to moving arrows list
+19:13:09  106 000001EF2DD9B4D0
+19:13:09  106 Adding to moving arrows list
+19:13:09  106 000001EF2DD9B4D0
+19:13:09  106 UP PRESSED
+19:13:09  106 000001EF2DD9B4D0
+19:13:09  106 Checking Collision
+19:13:09  107 Adding to moving arrows list
+19:13:09  107 000001EF2DD9B4D0
+19:13:09  107 UP PRESSED
+19:13:09  107 000001EF2DD9B4D0
+19:13:09  107 Checking Collision
+19:13:09  108 Adding to moving arrows list
+19:13:09  108 000001EF2DD9B4D0
+19:13:09  108 UP PRESSED
+19:13:09  108 000001EF2DD9B4D0
+19:13:09  108 Checking Collision
+19:13:10  109 Adding to moving arrows list
+19:13:10  109 000001EF2DD9B4D0
+19:13:10  112 Adding to moving arrows list
+19:13:10  112 000001EF2DD9B4D0
+19:13:10  112 Adding to moving arrows list
+19:13:10  112 000001EF2DD9B4D0
+19:13:10  112 UP PRESSED
+19:13:10  112 000001EF2DD9B4D0
+19:13:10  112 Checking Collision
+19:13:10  113 Adding to moving arrows list
+19:13:10  113 000001EF2DD9B4D0
+19:13:10  113 UP PRESSED
+19:13:10  113 000001EF2DD9B4D0
+19:13:10  113 Checking Collision
+19:13:10  114 Adding to moving arrows list
+19:13:10  114 000001EF2DD9B4D0
+19:13:10  114 UP PRESSED
+19:13:10  114 000001EF2DD9B4D0
+19:13:10  114 Checking Collision
+19:13:10  115 Adding to moving arrows list
+19:13:10  115 000001EF2DD9B4D0
+19:13:10  119 Adding to moving arrows list
+19:13:10  119 000001EF2DD9B4D0
+19:13:10  119 Adding to moving arrows list
+19:13:10  119 000001EF2DD9B4D0
+19:13:10  119 UP PRESSED
+19:13:10  119 000001EF2DD9B4D0
+19:13:10  119 Checking Collision
+19:13:10  120 Adding to moving arrows list
+19:13:10  120 000001EF2DD9B4D0
+19:13:10  120 UP PRESSED
+19:13:10  120 000001EF2DD9B4D0
+19:13:10  120 Checking Collision
+19:13:10  121 Adding to moving arrows list
+19:13:10  121 000001EF2DD9B4D0
+19:13:10  121 UP PRESSED
+19:13:10  121 000001EF2DD9B4D0
+19:13:10  121 Checking Collision
+19:13:10  122 Adding to moving arrows list
+19:13:10  122 000001EF2DD9B4D0
+19:13:10  125 Adding to moving arrows list
+19:13:10  125 000001EF2DD9B4D0
+19:13:10  125 Adding to moving arrows list
+19:13:10  125 000001EF2DD9B4D0
+19:13:10  125 UP PRESSED
+19:13:10  125 000001EF2DD9B4D0
+19:13:10  125 Checking Collision
+19:13:10  126 Adding to moving arrows list
+19:13:10  126 000001EF2DD9B4D0
+19:13:10  126 UP PRESSED
+19:13:10  126 000001EF2DD9B4D0
+19:13:10  126 Checking Collision
+19:13:10  127 Adding to moving arrows list
+19:13:10  127 000001EF2DD9B4D0
+19:13:10  130 Adding to moving arrows list
+19:13:10  130 000001EF2DD9B4D0
+19:13:10  130 Adding to moving arrows list
+19:13:10  130 000001EF2DD9B4D0
+19:13:10  130 UP PRESSED
+19:13:10  130 000001EF2DD9B4D0
+19:13:10  130 Checking Collision
+19:13:10  131 Adding to moving arrows list
+19:13:10  131 000001EF2DD9B4D0
+19:13:10  131 UP PRESSED
+19:13:10  131 000001EF2DD9B4D0
+19:13:10  131 Checking Collision
+19:13:10  132 Adding to moving arrows list
+19:13:10  132 000001EF2DD9B4D0
+19:13:10  132 UP PRESSED
+19:13:10  132 000001EF2DD9B4D0
+19:13:10  132 Checking Collision
+19:13:10  133 Adding to moving arrows list
+19:13:10  133 000001EF2DD9B4D0
+19:13:10  133 UP PRESSED
+19:13:10  133 000001EF2DD9B4D0
+19:13:10  133 Checking Collision
+19:13:10  134 Adding to moving arrows list
+19:13:10  134 000001EF2DD9B4D0
+19:13:10  136 Adding to moving arrows list
+19:13:10  136 000001EF2DD9B4D0
+19:13:10  136 Adding to moving arrows list
+19:13:10  136 000001EF2DD9B4D0
+19:13:10  136 UP PRESSED
+19:13:10  136 000001EF2DD9B4D0
+19:13:10  136 Checking Collision
+19:13:10  137 Adding to moving arrows list
+19:13:10  137 000001EF2DD9B4D0
+19:13:10  137 UP PRESSED
+19:13:10  137 000001EF2DD9B4D0
+19:13:10  137 Checking Collision
+19:13:10  138 Adding to moving arrows list
+19:13:10  138 000001EF2DD9B4D0
+19:13:10  138 UP PRESSED
+19:13:10  138 000001EF2DD9B4D0
+19:13:10  138 Checking Collision
+19:13:10  139 Adding to moving arrows list
+19:13:10  139 000001EF2DD9B4D0
+19:13:11  141 Adding to moving arrows list
+19:13:11  141 000001EF2DD9B4D0
+19:13:11  141 Adding to moving arrows list
+19:13:11  141 000001EF2DD9B4D0
+19:13:11  141 UP PRESSED
+19:13:11  141 000001EF2DD9B4D0
+19:13:11  141 Checking Collision
+19:13:11  142 Adding to moving arrows list
+19:13:11  142 000001EF2DD9B4D0
+19:13:11  142 UP PRESSED
+19:13:11  142 000001EF2DD9B4D0
+19:13:11  142 Checking Collision
+19:13:11  143 Adding to moving arrows list
+19:13:11  143 000001EF2DD9B4D0
+19:13:11  143 UP PRESSED
+19:13:11  143 000001EF2DD9B4D0
+19:13:11  143 Checking Collision
+19:13:11  144 Adding to moving arrows list
+19:13:11  144 000001EF2DD9B4D0
+19:13:11  144 UP PRESSED
+19:13:11  144 000001EF2DD9B4D0
+19:13:11  144 Checking Collision
+19:13:11  144 Verticals good!
+19:13:11  148 UP PRESSED
+19:13:11  149 UP PRESSED
+19:13:11  152 UP PRESSED
+19:13:11  153 UP PRESSED
+19:13:11  154 UP PRESSED
+19:13:11  155 UP PRESSED
+19:13:11  156 UP PRESSED
+19:13:11  157 UP PRESSED
+19:13:11  160 UP PRESSED
+19:13:11  161 UP PRESSED
+19:13:11  164 UP PRESSED
+19:13:11  165 UP PRESSED
+19:13:11  166 UP PRESSED
+19:13:11  167 UP PRESSED
+19:13:12  170 UP PRESSED
+19:13:12  171 UP PRESSED
+19:13:12  172 UP PRESSED
+19:13:12  177 UP PRESSED
+19:13:12  178 UP PRESSED
+19:13:12  179 UP PRESSED
+19:13:12  182 UP PRESSED
+19:13:12  183 UP PRESSED
+19:13:12  184 UP PRESSED
+19:13:12  185 UP PRESSED

@@ -154,6 +154,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\down_arrow.h" />
     <ClInclude Include="..\GameOver.h" />
     <ClInclude Include="..\GameStart.h" />
     <ClInclude Include="..\player.h" />
@@ -161,6 +162,7 @@
     <ClInclude Include="..\up_arrow.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\down_arrow.cpp" />
     <ClCompile Include="..\game.cpp" />
     <ClCompile Include="..\GameOver.cpp" />
     <ClCompile Include="..\GameStart.cpp" />

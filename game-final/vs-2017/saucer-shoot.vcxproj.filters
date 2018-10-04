@@ -30,6 +30,9 @@
     <ClInclude Include="..\player.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\down_arrow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\game.cpp">
@@ -48,6 +51,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Points.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\down_arrow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

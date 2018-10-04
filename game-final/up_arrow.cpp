@@ -1,7 +1,3 @@
-//
-// Saucer.cpp
-//
- 
 // System includes.
 #include <stdlib.h>		// for rand()
 
@@ -38,11 +34,6 @@ up_arrow::up_arrow() {
   setVelocity(df::Vector(0,0.125)); // 1 space down every 8 frames
 }
 up_arrow::~up_arrow() {
-
-  // Send "view" event with points to interested ViewObjects.
-  // Add 10 points.
-  df::EventView ev(POINTS_STRING, -10, true);
-  WM.onEvent(&ev);
 }
 
 

@@ -16,6 +16,7 @@
 #include "Music.h"
 #include "Points.h"
 #include "up_arrow.h"
+#include "down_arrow.h"
 
 GameStart::GameStart() {
   setType("GameStart");
@@ -74,6 +75,7 @@ void GameStart::start() {
       // Setup heads-up display.
   new Points;		                     // Points display.
   new up_arrow;
+  new down_arrow;
    // Pause start music.
   p_music->pause();
     // When game starts, become inactive.
