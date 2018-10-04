@@ -10,6 +10,9 @@
 #include "utility.h"
 #include "ObjectList.h"
 #include "ObjectListIterator.h"
+#include "EventView.h"
+#include "Points.h"
+#include <math.h>
 
 // Game includes.
 #include "GameOver.h"
@@ -88,10 +91,17 @@ void player::kbd(const df::EventKeyboard *p_keyboard_event) {
 				if ( moving_arrows_iterator.currentObject()->getPosition().getY()+5 == this->getPosition().getY()) {
 					LM.writeLog("Verticals good!");
 					WM.markForDelete(moving_arrows_iterator.currentObject());
+
+					//add points 
+					// Send "view" event with points to interested ViewObjects.
+					int accuracy = 10 - abs(this->getPosition().getY() - moving_arrows_iterator.currentObject()->getPosition().getY());
+					df::EventView ev(POINTS_STRING, 10*accuracy , true);
+					WM.onEvent(&ev);
 				}
 			
 				oli.next();
 			}
+
 			break;
 		}
 	case df::Keyboard::S:       // down
