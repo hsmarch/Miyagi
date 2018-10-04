@@ -49,10 +49,10 @@ int main(int argc, char *argv[]) {
 
 // Load resources (sprites, sound effects, music).
 void loadResources(void) {
-  RM.loadSprite("sprites/saucer-spr.txt", "saucer");
-  RM.loadSprite("sprites/ship-spr.txt", "ship");
-  RM.loadSprite("sprites/bullet-spr.txt", "bullet");
-  RM.loadSprite("sprites/explosion-spr.txt", "explosion");
+  RM.loadSprite("sprites/up_arrow_spr.txt", "up");
+  RM.loadSprite("sprites/down_arrow_spr.txt", "down");
+  RM.loadSprite("sprites/left_arrow_spr.txt", "left");
+  RM.loadSprite("sprites/right_arrow_spr.txt", "right");
   RM.loadSprite("sprites/gamestart-spr.txt", "gamestart");
   RM.loadSprite("sprites/gameover-spr.txt", "gameover");
   RM.loadSound("sounds/fire.wav", "fire");
