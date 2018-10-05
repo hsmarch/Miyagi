@@ -161,6 +161,7 @@
     <ClInclude Include="..\Points.h" />
     <ClInclude Include="..\up_arrow.h" />
     <ClInclude Include="left_arrow.h" />
+    <ClInclude Include="right_arrow.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\down_arrow.cpp" />
@@ -171,6 +172,7 @@
     <ClCompile Include="..\Points.cpp" />
     <ClCompile Include="..\up_arrow.cpp" />
     <ClCompile Include="left_arrow.cpp" />
+    <ClCompile Include="right_arrow.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Media Include="..\sounds\explode.wav" />

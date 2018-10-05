@@ -1,1 +1,16 @@
-﻿
+﻿  down_arrow.cpp
+  game.cpp
+  GameOver.cpp
+  GameStart.cpp
+  player.cpp
+c:\users\name\documents\github\miyagi\game-final\player.cpp(97): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\name\documents\github\miyagi\game-final\player.cpp(119): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\name\documents\github\miyagi\game-final\player.cpp(141): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\name\documents\github\miyagi\game-final\player.cpp(163): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Points.cpp
+  up_arrow.cpp
+  left_arrow.cpp
+c:\users\name\documents\github\miyagi\game-final\vs-2017\left_arrow.cpp(15): fatal error C1083: Cannot open include file: 'Points.h': No such file or directory
+  right_arrow.cpp
+c:\users\name\documents\github\miyagi\game-final\vs-2017\right_arrow.cpp(13): fatal error C1083: Cannot open include file: 'Points.h': No such file or directory
+  Generating Code...

@@ -147,7 +147,7 @@ void player::kbd(const df::EventKeyboard *p_keyboard_event) {
 			break;
 
 		}
-	case df::Keyboard::D:       // left
+	case df::Keyboard::D:       // right
 		if (p_keyboard_event->getKeyboardAction() == df::KEY_DOWN) {
 			LM.writeLog("RIGHT PRESSED");
 			df::ObjectListIterator moving_arrows_iterator(&moving_arrows);
