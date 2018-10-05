@@ -1,3 +1,1 @@
-﻿  player.cpp
-h:\github\miyagi\game-final\player.cpp(99): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-  saucer-shoot.vcxproj -> H:\GitHub\miyagi\game-final\vs-2017\x64\Debug\miyagi.exe
+﻿
