@@ -34,6 +34,7 @@
       <Filter>Header Files</Filter>
     </ClInclude>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <ClInclude Include="..\up_indicator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -50,6 +51,12 @@
     </ClInclude>
     <ClInclude Include="right_arrow.h">
 >>>>>>> a585fb1cef45eea4e7fbff9feb0df5b95fd9c1ba
+=======
+    <ClInclude Include="..\right_arrow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\left_arrow.h">
+>>>>>>> fb98997823835025f5a7ecf899cbe6e314d12fb5
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -76,6 +83,7 @@
       <Filter>Source Files</Filter>
     </ClCompile>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <ClCompile Include="..\up_indicator.cpp">
 =======
     <ClCompile Include="left_arrow.cpp">
@@ -83,6 +91,12 @@
     </ClCompile>
     <ClCompile Include="right_arrow.cpp">
 >>>>>>> a585fb1cef45eea4e7fbff9feb0df5b95fd9c1ba
+=======
+    <ClCompile Include="..\right_arrow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\left_arrow.cpp">
+>>>>>>> fb98997823835025f5a7ecf899cbe6e314d12fb5
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
