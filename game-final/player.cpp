@@ -66,6 +66,7 @@ void player::kbd(const df::EventKeyboard *p_keyboard_event) {
 	df::ObjectList moving_arrows;
 	moving_arrows.clear();
 	for (oli.first(); !oli.isDone(); oli.next()) {
+		oli.currentObject()->setBox = true;
 		if (oli.currentObject()->getType() == "up_arrow") {
 			moving_arrows.insert(oli.currentObject());
 			LM.writeLog("Adding to moving arrows list");
