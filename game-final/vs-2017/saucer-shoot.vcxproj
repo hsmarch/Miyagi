@@ -155,48 +155,22 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="..\down_arrow.h" />
-    <ClInclude Include="..\down_indicator.h" />
     <ClInclude Include="..\GameOver.h" />
     <ClInclude Include="..\GameStart.h" />
-<<<<<<< HEAD
-    <ClInclude Include="..\left_indicator.h" />
     <ClInclude Include="..\player.h" />
     <ClInclude Include="..\Points.h" />
-    <ClInclude Include="..\right_indicator.h" />
     <ClInclude Include="..\up_arrow.h" />
-<<<<<<< HEAD
-    <ClInclude Include="..\up_indicator.h" />
-=======
     <ClInclude Include="left_arrow.h" />
-    <ClInclude Include="right_arrow.h" />
->>>>>>> a585fb1cef45eea4e7fbff9feb0df5b95fd9c1ba
-=======
-    <ClInclude Include="..\left_arrow.h" />
-    <ClInclude Include="..\player.h" />
-    <ClInclude Include="..\Points.h" />
-    <ClInclude Include="..\right_arrow.h" />
-    <ClInclude Include="..\up_arrow.h" />
->>>>>>> fb98997823835025f5a7ecf899cbe6e314d12fb5
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\down_arrow.cpp" />
     <ClCompile Include="..\game.cpp" />
     <ClCompile Include="..\GameOver.cpp" />
     <ClCompile Include="..\GameStart.cpp" />
-    <ClCompile Include="..\left_arrow.cpp" />
     <ClCompile Include="..\player.cpp" />
     <ClCompile Include="..\Points.cpp" />
-    <ClCompile Include="..\right_arrow.cpp" />
     <ClCompile Include="..\up_arrow.cpp" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <ClCompile Include="..\up_indicator.cpp" />
-=======
     <ClCompile Include="left_arrow.cpp" />
-    <ClCompile Include="right_arrow.cpp" />
->>>>>>> a585fb1cef45eea4e7fbff9feb0df5b95fd9c1ba
-=======
->>>>>>> fb98997823835025f5a7ecf899cbe6e314d12fb5
   </ItemGroup>
   <ItemGroup>
     <Media Include="..\sounds\explode.wav" />
