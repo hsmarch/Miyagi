@@ -1,625 +1,98 @@
-17:40:21    0 ****************************************************
-17:40:21    0 ** Dragonfly version 4.4 **
-17:40:23    0 GameManager::run(): Can't keep up! frame_time 33 ms, split 385 ms
-17:40:23    1 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
-17:40:23    2 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
-17:40:23   15 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
-17:40:23   16 GameManager::run(): Can't keep up! frame_time 33 ms, split 46 ms
-17:40:23   17 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
-17:40:23   18 GameManager::run(): Can't keep up! frame_time 33 ms, split 40 ms
-17:40:23   21 GameManager::run(): Can't keep up! frame_time 33 ms, split 51 ms
-17:40:24   48 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
-17:40:24   49 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
-17:40:25   56 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
-17:40:25   57 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
-17:40:25   74 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
-17:40:25   75 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
-17:40:25   76 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
-17:40:25   77 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
-17:40:25   78 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
-17:40:25   79 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
-17:40:25   80 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
-17:40:26   90 ResourceManager::loadSprite(): Loading sprite 'sprites/up_arrow_spr.txt'
-17:40:26   90 ResourceManager::loadSprite(): Loading sprite 'sprites/down_arrow_spr.txt'
-17:40:26   90 ResourceManager::loadSprite(): Loading sprite 'sprites/left_arrow_spr.txt'
-17:40:26   90 ResourceManager::loadSprite(): Loading sprite 'sprites/right_arrow_spr.txt'
-17:40:26   90 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
-17:40:26   90 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
-17:40:26   90 ResourceManager::loadSprite(): Loading sprite 'sprites/player_spr.txt'
-17:40:26   90 Pause::Pause(): Pause enabled.  Press any other key to resume.
-17:40:27   35 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
-17:40:28   38 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
-17:40:28   42 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
-17:40:28   48 GameManager::run(): Can't keep up! frame_time 33 ms, split 47 ms
-17:40:28   54 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
-17:40:28   55 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
-17:40:28   60 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
-17:40:28   61 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
-17:40:29   84 Adding to moving arrows list
-17:40:29   84 000002AEBCE1FDB0
-17:40:29   85 Adding to moving arrows list
-17:40:29   85 000002AEBCE1FDB0
-17:40:29   86 Adding to moving arrows list
-17:40:29   86 000002AEBCE1FDB0
-17:40:29   87 Adding to moving arrows list
-17:40:29   87 000002AEBCE1FDB0
-17:40:29   88 Adding to moving arrows list
-17:40:29   88 000002AEBCE1FDB0
-17:40:30   98 Adding to moving arrows list
-17:40:30   98 000002AEBCE1FDB0
-17:40:30   98 Adding to moving arrows list
-17:40:30   98 000002AEBCE1FDB0
-17:40:30   98 DOWN PRESSED
-17:40:30   99 Adding to moving arrows list
-17:40:30   99 000002AEBCE1FDB0
-17:40:30   99 DOWN PRESSED
-17:40:30  100 Adding to moving arrows list
-17:40:30  100 000002AEBCE1FDB0
-17:40:30  100 DOWN PRESSED
-17:40:30  101 Adding to moving arrows list
-17:40:30  101 000002AEBCE1FDB0
-17:40:30  101 DOWN PRESSED
-17:40:30  102 Adding to moving arrows list
-17:40:30  102 000002AEBCE1FDB0
-17:40:30  102 DOWN PRESSED
-17:40:30  103 Adding to moving arrows list
-17:40:30  103 000002AEBCE1FDB0
-17:40:30  103 DOWN PRESSED
-17:40:30  104 Adding to moving arrows list
-17:40:30  104 000002AEBCE1FDB0
-17:40:30  104 DOWN PRESSED
-17:40:30  105 Adding to moving arrows list
-17:40:30  105 000002AEBCE1FDB0
-17:40:30  105 DOWN PRESSED
-17:40:30  106 Adding to moving arrows list
-17:40:30  106 000002AEBCE1FDB0
-17:40:30  106 DOWN PRESSED
-17:40:30  107 Adding to moving arrows list
-17:40:30  107 000002AEBCE1FDB0
-17:40:30  107 DOWN PRESSED
-17:40:30  108 Adding to moving arrows list
-17:40:30  108 000002AEBCE1FDB0
-17:40:30  108 DOWN PRESSED
-17:40:30  109 Adding to moving arrows list
-17:40:30  109 000002AEBCE1FDB0
-17:40:30  109 DOWN PRESSED
-17:40:30  110 Adding to moving arrows list
-17:40:30  110 000002AEBCE1FDB0
-17:40:30  110 DOWN PRESSED
-17:40:30  111 Adding to moving arrows list
-17:40:30  111 000002AEBCE1FDB0
-17:40:30  111 DOWN PRESSED
-17:40:30  112 Adding to moving arrows list
-17:40:30  112 000002AEBCE1FDB0
-17:40:30  112 DOWN PRESSED
-17:40:30  113 Adding to moving arrows list
-17:40:30  113 000002AEBCE1FDB0
-17:40:30  113 DOWN PRESSED
-17:40:30  114 Adding to moving arrows list
-17:40:30  114 000002AEBCE1FDB0
-17:40:30  114 DOWN PRESSED
-17:40:30  115 Adding to moving arrows list
-17:40:30  115 000002AEBCE1FDB0
-17:40:30  115 DOWN PRESSED
-17:40:30  116 Adding to moving arrows list
-17:40:30  116 000002AEBCE1FDB0
-17:40:30  116 DOWN PRESSED
-17:40:30  117 Adding to moving arrows list
-17:40:30  117 000002AEBCE1FDB0
-17:40:30  117 DOWN PRESSED
-17:40:30  118 Adding to moving arrows list
-17:40:30  118 000002AEBCE1FDB0
-17:40:30  118 DOWN PRESSED
-17:40:30  119 Adding to moving arrows list
-17:40:30  119 000002AEBCE1FDB0
-17:40:30  119 DOWN PRESSED
-17:40:30  120 Adding to moving arrows list
-17:40:30  120 000002AEBCE1FDB0
-17:40:30  120 DOWN PRESSED
-17:40:30  121 Adding to moving arrows list
-17:40:30  121 000002AEBCE1FDB0
-17:40:30  121 DOWN PRESSED
-17:40:30  122 Adding to moving arrows list
-17:40:30  122 000002AEBCE1FDB0
-17:40:30  122 DOWN PRESSED
-17:40:30  123 Adding to moving arrows list
-17:40:30  123 000002AEBCE1FDB0
-17:40:30  123 DOWN PRESSED
-17:40:30  124 Adding to moving arrows list
-17:40:30  124 000002AEBCE1FDB0
-17:40:30  124 DOWN PRESSED
-17:40:30  125 Adding to moving arrows list
-17:40:30  125 000002AEBCE1FDB0
-17:40:30  125 DOWN PRESSED
-17:40:31  126 Adding to moving arrows list
-17:40:31  126 000002AEBCE1FDB0
-17:40:31  126 DOWN PRESSED
-17:40:31  127 Adding to moving arrows list
-17:40:31  127 000002AEBCE1FDB0
-17:40:31  127 DOWN PRESSED
-17:40:31  128 Adding to moving arrows list
-17:40:31  128 000002AEBCE1FDB0
-17:40:31  128 DOWN PRESSED
-17:40:31  129 Adding to moving arrows list
-17:40:31  129 000002AEBCE1FDB0
-17:40:31  129 DOWN PRESSED
-17:40:31  130 Adding to moving arrows list
-17:40:31  130 000002AEBCE1FDB0
-17:40:31  130 DOWN PRESSED
-17:40:31  131 Adding to moving arrows list
-17:40:31  131 000002AEBCE1FDB0
-17:40:31  131 DOWN PRESSED
-17:40:31  132 Adding to moving arrows list
-17:40:31  132 000002AEBCE1FDB0
-17:40:31  132 DOWN PRESSED
-17:40:31  133 Adding to moving arrows list
-17:40:31  133 000002AEBCE1FDB0
-17:40:31  133 DOWN PRESSED
-17:40:31  134 Adding to moving arrows list
-17:40:31  134 000002AEBCE1FDB0
-17:40:31  134 DOWN PRESSED
-17:40:31  135 Adding to moving arrows list
-17:40:31  135 000002AEBCE1FDB0
-17:40:31  135 DOWN PRESSED
-17:40:31  136 Adding to moving arrows list
-17:40:31  136 000002AEBCE1FDB0
-17:40:31  136 DOWN PRESSED
-17:40:31  137 Adding to moving arrows list
-17:40:31  137 000002AEBCE1FDB0
-17:40:31  137 DOWN PRESSED
-17:40:31  138 Adding to moving arrows list
-17:40:31  138 000002AEBCE1FDB0
-17:40:31  138 DOWN PRESSED
-17:40:31  139 Adding to moving arrows list
-17:40:31  139 000002AEBCE1FDB0
-17:40:31  139 DOWN PRESSED
-17:40:31  140 Adding to moving arrows list
-17:40:31  140 000002AEBCE1FDB0
-17:40:31  140 DOWN PRESSED
-17:40:31  141 Adding to moving arrows list
-17:40:31  141 000002AEBCE1FDB0
-17:40:31  141 DOWN PRESSED
-17:40:31  142 Adding to moving arrows list
-17:40:31  142 000002AEBCE1FDB0
-17:40:31  142 DOWN PRESSED
-17:40:31  143 Adding to moving arrows list
-17:40:31  143 000002AEBCE1FDB0
-17:40:31  143 DOWN PRESSED
-17:40:31  144 Adding to moving arrows list
-17:40:31  144 000002AEBCE1FDB0
-17:40:31  144 DOWN PRESSED
-17:40:31  145 Adding to moving arrows list
-17:40:31  145 000002AEBCE1FDB0
-17:40:31  145 DOWN PRESSED
-17:40:31  146 Adding to moving arrows list
-17:40:31  146 000002AEBCE1FDB0
-17:40:31  146 DOWN PRESSED
-17:40:31  147 Adding to moving arrows list
-17:40:31  147 000002AEBCE1FDB0
-17:40:31  147 DOWN PRESSED
-17:40:31  148 Adding to moving arrows list
-17:40:31  148 000002AEBCE1FDB0
-17:40:31  148 DOWN PRESSED
-17:40:31  149 Adding to moving arrows list
-17:40:31  149 000002AEBCE1FDB0
-17:40:31  149 DOWN PRESSED
-17:40:31  150 Adding to moving arrows list
-17:40:31  150 000002AEBCE1FDB0
-17:40:31  150 DOWN PRESSED
-17:40:31  151 Adding to moving arrows list
-17:40:31  151 000002AEBCE1FDB0
-17:40:31  151 DOWN PRESSED
-17:40:31  152 Adding to moving arrows list
-17:40:31  152 000002AEBCE1FDB0
-17:40:31  152 DOWN PRESSED
-17:40:31  153 Adding to moving arrows list
-17:40:31  153 000002AEBCE1FDB0
-17:40:31  153 DOWN PRESSED
-17:40:31  154 Adding to moving arrows list
-17:40:31  154 000002AEBCE1FDB0
-17:40:31  154 DOWN PRESSED
-17:40:31  155 Adding to moving arrows list
-17:40:31  155 000002AEBCE1FDB0
-17:40:31  155 DOWN PRESSED
-17:40:32  156 Adding to moving arrows list
-17:40:32  156 000002AEBCE1FDB0
-17:40:32  156 DOWN PRESSED
-17:40:32  157 Adding to moving arrows list
-17:40:32  157 000002AEBCE1FDB0
-17:40:32  157 DOWN PRESSED
-17:40:32  158 Adding to moving arrows list
-17:40:32  158 000002AEBCE1FDB0
-17:40:32  158 DOWN PRESSED
-17:40:32  159 Adding to moving arrows list
-17:40:32  159 000002AEBCE1FDB0
-17:40:32  159 DOWN PRESSED
-17:40:32  160 Adding to moving arrows list
-17:40:32  160 000002AEBCE1FDB0
-17:40:32  160 DOWN PRESSED
-17:40:32  161 Adding to moving arrows list
-17:40:32  161 000002AEBCE1FDB0
-17:40:32  161 DOWN PRESSED
-17:40:32  162 Adding to moving arrows list
-17:40:32  162 000002AEBCE1FDB0
-17:40:32  162 DOWN PRESSED
-17:40:32  163 Adding to moving arrows list
-17:40:32  163 000002AEBCE1FDB0
-17:40:32  163 DOWN PRESSED
-17:40:32  164 Adding to moving arrows list
-17:40:32  164 000002AEBCE1FDB0
-17:40:32  164 DOWN PRESSED
-17:40:32  165 Adding to moving arrows list
-17:40:32  165 000002AEBCE1FDB0
-17:40:32  165 DOWN PRESSED
-17:40:32  166 Adding to moving arrows list
-17:40:32  166 000002AEBCE1FDB0
-17:40:32  166 DOWN PRESSED
-17:40:32  167 Adding to moving arrows list
-17:40:32  167 000002AEBCE1FDB0
-17:40:32  167 DOWN PRESSED
-17:40:32  168 Adding to moving arrows list
-17:40:32  168 000002AEBCE1FDB0
-17:40:32  168 DOWN PRESSED
-17:40:32  169 Adding to moving arrows list
-17:40:32  169 000002AEBCE1FDB0
-17:40:32  169 DOWN PRESSED
-17:40:32  170 Adding to moving arrows list
-17:40:32  170 000002AEBCE1FDB0
-17:40:32  170 DOWN PRESSED
-17:40:32  171 Adding to moving arrows list
-17:40:32  171 000002AEBCE1FDB0
-17:40:32  171 DOWN PRESSED
-17:40:32  172 Adding to moving arrows list
-17:40:32  172 000002AEBCE1FDB0
-17:40:32  172 DOWN PRESSED
-17:40:32  173 Adding to moving arrows list
-17:40:32  173 000002AEBCE1FDB0
-17:40:32  173 DOWN PRESSED
-17:40:32  174 Adding to moving arrows list
-17:40:32  174 000002AEBCE1FDB0
-17:40:32  174 DOWN PRESSED
-17:40:32  175 Adding to moving arrows list
-17:40:32  175 000002AEBCE1FDB0
-17:40:32  177 Adding to moving arrows list
-17:40:32  177 000002AEBCE1FDB0
-17:40:32  177 Adding to moving arrows list
-17:40:32  177 000002AEBCE1FDB0
-17:40:32  177 UP PRESSED
-17:40:32  178 Adding to moving arrows list
-17:40:32  178 000002AEBCE1FDB0
-17:40:32  178 UP PRESSED
-17:40:32  179 Adding to moving arrows list
-17:40:32  179 000002AEBCE1FDB0
-17:40:32  179 UP PRESSED
-17:40:32  180 Adding to moving arrows list
-17:40:32  180 000002AEBCE1FDB0
-17:40:32  180 UP PRESSED
-17:40:32  181 Adding to moving arrows list
-17:40:32  181 000002AEBCE1FDB0
-17:40:32  181 UP PRESSED
-17:40:32  182 Adding to moving arrows list
-17:40:32  182 000002AEBCE1FDB0
-17:40:32  182 UP PRESSED
-17:40:32  183 Adding to moving arrows list
-17:40:32  183 000002AEBCE1FDB0
-17:40:32  183 UP PRESSED
-17:40:32  184 Adding to moving arrows list
-17:40:32  184 000002AEBCE1FDB0
-17:40:32  184 UP PRESSED
-17:40:32  185 Adding to moving arrows list
-17:40:32  185 000002AEBCE1FDB0
-17:40:32  185 UP PRESSED
-17:40:32  186 Adding to moving arrows list
-17:40:32  186 000002AEBCE1FDB0
-17:40:32  186 UP PRESSED
-17:40:33  187 Adding to moving arrows list
-17:40:33  187 000002AEBCE1FDB0
-17:40:33  187 UP PRESSED
-17:40:33  188 Adding to moving arrows list
-17:40:33  188 000002AEBCE1FDB0
-17:40:33  188 UP PRESSED
-17:40:33  189 Adding to moving arrows list
-17:40:33  189 000002AEBCE1FDB0
-17:40:33  189 UP PRESSED
-17:40:33  190 Adding to moving arrows list
-17:40:33  190 000002AEBCE1FDB0
-17:40:33  190 UP PRESSED
-17:40:33  191 Adding to moving arrows list
-17:40:33  191 000002AEBCE1FDB0
-17:40:33  191 UP PRESSED
-17:40:33  192 Adding to moving arrows list
-17:40:33  192 000002AEBCE1FDB0
-17:40:33  192 UP PRESSED
-17:40:33  193 Adding to moving arrows list
-17:40:33  193 000002AEBCE1FDB0
-17:40:33  193 UP PRESSED
-17:40:33  194 Adding to moving arrows list
-17:40:33  194 000002AEBCE1FDB0
-17:40:33  194 UP PRESSED
-17:40:33  195 Adding to moving arrows list
-17:40:33  195 000002AEBCE1FDB0
-17:40:33  195 UP PRESSED
-17:40:33  196 Adding to moving arrows list
-17:40:33  196 000002AEBCE1FDB0
-17:40:33  196 UP PRESSED
-17:40:33  197 Adding to moving arrows list
-17:40:33  197 000002AEBCE1FDB0
-17:40:33  197 UP PRESSED
-17:40:33  198 Adding to moving arrows list
-17:40:33  198 000002AEBCE1FDB0
-17:40:33  198 UP PRESSED
-17:40:33  199 Adding to moving arrows list
-17:40:33  199 000002AEBCE1FDB0
-17:40:33  199 UP PRESSED
-17:40:33  200 Adding to moving arrows list
-17:40:33  200 000002AEBCE1FDB0
-17:40:33  200 UP PRESSED
-17:40:33  201 Adding to moving arrows list
-17:40:33  201 000002AEBCE1FDB0
-17:40:33  201 UP PRESSED
-17:40:33  202 Adding to moving arrows list
-17:40:33  202 000002AEBCE1FDB0
-17:40:33  202 UP PRESSED
-17:40:33  203 Adding to moving arrows list
-17:40:33  203 000002AEBCE1FDB0
-17:40:33  203 UP PRESSED
-17:40:33  204 Adding to moving arrows list
-17:40:33  204 000002AEBCE1FDB0
-17:40:33  204 UP PRESSED
-17:40:33  205 Adding to moving arrows list
-17:40:33  205 000002AEBCE1FDB0
-17:40:33  205 UP PRESSED
-17:40:33  206 Adding to moving arrows list
-17:40:33  206 000002AEBCE1FDB0
-17:40:33  206 UP PRESSED
-17:40:33  207 Adding to moving arrows list
-17:40:33  207 000002AEBCE1FDB0
-17:40:33  207 UP PRESSED
-17:40:33  208 Adding to moving arrows list
-17:40:33  208 000002AEBCE1FDB0
-17:40:33  208 UP PRESSED
-17:40:33  209 Adding to moving arrows list
-17:40:33  209 000002AEBCE1FDB0
-17:40:33  209 UP PRESSED
-17:40:33  210 Adding to moving arrows list
-17:40:33  210 000002AEBCE1FDB0
-17:40:33  210 UP PRESSED
-17:40:33  211 Adding to moving arrows list
-17:40:33  211 000002AEBCE1FDB0
-17:40:33  211 UP PRESSED
-17:40:33  212 Adding to moving arrows list
-17:40:33  212 000002AEBCE1FDB0
-17:40:33  212 UP PRESSED
-17:40:33  213 Adding to moving arrows list
-17:40:33  213 000002AEBCE1FDB0
-17:40:33  213 UP PRESSED
-17:40:33  214 Adding to moving arrows list
-17:40:33  214 000002AEBCE1FDB0
-17:40:33  214 UP PRESSED
-17:40:33  215 Adding to moving arrows list
-17:40:33  215 000002AEBCE1FDB0
-17:40:33  215 UP PRESSED
-17:40:33  216 Adding to moving arrows list
-17:40:33  216 000002AEBCE1FDB0
-17:40:33  216 UP PRESSED
-17:40:34  217 Adding to moving arrows list
-17:40:34  217 000002AEBCE1FDB0
-17:40:34  217 UP PRESSED
-17:40:34  218 Adding to moving arrows list
-17:40:34  218 000002AEBCE1FDB0
-17:40:34  218 UP PRESSED
-17:40:34  219 Adding to moving arrows list
-17:40:34  219 000002AEBCE1FDB0
-17:40:34  219 UP PRESSED
-17:40:34  220 Adding to moving arrows list
-17:40:34  220 000002AEBCE1FDB0
-17:40:34  220 UP PRESSED
-17:40:34  221 Adding to moving arrows list
-17:40:34  221 000002AEBCE1FDB0
-17:40:34  221 UP PRESSED
-17:40:34  222 Adding to moving arrows list
-17:40:34  222 000002AEBCE1FDB0
-17:40:34  222 UP PRESSED
-17:40:34  223 Adding to moving arrows list
-17:40:34  223 000002AEBCE1FDB0
-17:40:34  223 UP PRESSED
-17:40:34  224 Adding to moving arrows list
-17:40:34  224 000002AEBCE1FDB0
-17:40:34  224 UP PRESSED
-17:40:34  225 Adding to moving arrows list
-17:40:34  225 000002AEBCE1FDB0
-17:40:34  225 UP PRESSED
-17:40:34  226 Adding to moving arrows list
-17:40:34  226 000002AEBCE1FDB0
-17:40:34  226 UP PRESSED
-17:40:34  227 Adding to moving arrows list
-17:40:34  227 000002AEBCE1FDB0
-17:40:34  227 UP PRESSED
-17:40:34  228 Adding to moving arrows list
-17:40:34  228 000002AEBCE1FDB0
-17:40:34  228 UP PRESSED
-17:40:34  229 Adding to moving arrows list
-17:40:34  229 000002AEBCE1FDB0
-17:40:34  229 UP PRESSED
-17:40:34  230 Adding to moving arrows list
-17:40:34  230 000002AEBCE1FDB0
-17:40:34  230 UP PRESSED
-17:40:34  231 Adding to moving arrows list
-17:40:34  231 000002AEBCE1FDB0
-17:40:34  231 UP PRESSED
-17:40:34  232 Adding to moving arrows list
-17:40:34  232 000002AEBCE1FDB0
-17:40:34  232 UP PRESSED
-17:40:34  233 Adding to moving arrows list
-17:40:34  233 000002AEBCE1FDB0
-17:40:34  233 UP PRESSED
-17:40:34  234 Adding to moving arrows list
-17:40:34  234 000002AEBCE1FDB0
-17:40:34  234 UP PRESSED
-17:40:34  235 Adding to moving arrows list
-17:40:34  235 000002AEBCE1FDB0
-17:40:34  235 UP PRESSED
-17:40:34  236 Adding to moving arrows list
-17:40:34  236 000002AEBCE1FDB0
-17:40:34  236 UP PRESSED
-17:40:34  237 Adding to moving arrows list
-17:40:34  237 000002AEBCE1FDB0
-17:40:34  237 UP PRESSED
-17:40:34  238 Adding to moving arrows list
-17:40:34  238 000002AEBCE1FDB0
-17:40:34  238 UP PRESSED
-17:40:34  239 Adding to moving arrows list
-17:40:34  239 000002AEBCE1FDB0
-17:40:34  239 UP PRESSED
-17:40:34  240 Adding to moving arrows list
-17:40:34  240 000002AEBCE1FDB0
-17:40:34  240 UP PRESSED
-17:40:34  241 Adding to moving arrows list
-17:40:34  241 000002AEBCE1FDB0
-17:40:34  241 UP PRESSED
-17:40:34  242 Adding to moving arrows list
-17:40:34  242 000002AEBCE1FDB0
-17:40:34  242 UP PRESSED
-17:40:34  243 Adding to moving arrows list
-17:40:34  243 000002AEBCE1FDB0
-17:40:34  243 UP PRESSED
-17:40:34  244 Adding to moving arrows list
-17:40:34  244 000002AEBCE1FDB0
-17:40:34  244 UP PRESSED
-17:40:34  245 Adding to moving arrows list
-17:40:34  245 000002AEBCE1FDB0
-17:40:34  245 UP PRESSED
-17:40:34  246 Adding to moving arrows list
-17:40:34  246 000002AEBCE1FDB0
-17:40:34  246 UP PRESSED
-17:40:35  247 Adding to moving arrows list
-17:40:35  247 000002AEBCE1FDB0
-17:40:35  247 UP PRESSED
-17:40:35  248 Adding to moving arrows list
-17:40:35  248 000002AEBCE1FDB0
-17:40:35  248 UP PRESSED
-17:40:35  249 Adding to moving arrows list
-17:40:35  249 000002AEBCE1FDB0
-17:40:35  249 UP PRESSED
-17:40:35  250 Adding to moving arrows list
-17:40:35  250 000002AEBCE1FDB0
-17:40:35  250 UP PRESSED
-17:40:35  251 Adding to moving arrows list
-17:40:35  251 000002AEBCE1FDB0
-17:40:35  251 UP PRESSED
-17:40:35  252 Adding to moving arrows list
-17:40:35  252 000002AEBCE1FDB0
-17:40:35  252 UP PRESSED
-17:40:35  253 Adding to moving arrows list
-17:40:35  253 000002AEBCE1FDB0
-17:40:35  253 UP PRESSED
-17:40:35  254 Adding to moving arrows list
-17:40:35  254 000002AEBCE1FDB0
-17:40:35  254 UP PRESSED
-17:40:35  255 Adding to moving arrows list
-17:40:35  255 000002AEBCE1FDB0
-17:40:35  255 UP PRESSED
-17:40:35  256 Adding to moving arrows list
-17:40:35  256 000002AEBCE1FDB0
-17:40:35  256 UP PRESSED
-17:40:35  257 Adding to moving arrows list
-17:40:35  257 000002AEBCE1FDB0
-17:40:35  257 UP PRESSED
-17:40:35  258 Adding to moving arrows list
-17:40:35  258 000002AEBCE1FDB0
-17:40:35  258 UP PRESSED
-17:40:35  259 Adding to moving arrows list
-17:40:35  259 000002AEBCE1FDB0
-17:40:35  259 UP PRESSED
-17:40:35  260 Adding to moving arrows list
-17:40:35  260 000002AEBCE1FDB0
-17:40:35  260 UP PRESSED
-17:40:35  261 Adding to moving arrows list
-17:40:35  261 000002AEBCE1FDB0
-17:40:35  261 UP PRESSED
-17:40:35  262 Adding to moving arrows list
-17:40:35  262 000002AEBCE1FDB0
-17:40:35  262 UP PRESSED
-17:40:35  263 Adding to moving arrows list
-17:40:35  263 000002AEBCE1FDB0
-17:40:35  263 UP PRESSED
-17:40:35  264 Adding to moving arrows list
-17:40:35  264 000002AEBCE1FDB0
-17:40:35  264 UP PRESSED
-17:40:35  265 Adding to moving arrows list
-17:40:35  265 000002AEBCE1FDB0
-17:40:35  265 UP PRESSED
-17:40:35  266 Adding to moving arrows list
-17:40:35  266 000002AEBCE1FDB0
-17:40:35  266 UP PRESSED
-17:40:35  267 Adding to moving arrows list
-17:40:35  267 000002AEBCE1FDB0
-17:40:35  267 UP PRESSED
-17:40:35  268 Adding to moving arrows list
-17:40:35  268 000002AEBCE1FDB0
-17:40:35  268 UP PRESSED
-17:40:35  269 Adding to moving arrows list
-17:40:35  269 000002AEBCE1FDB0
-17:40:35  269 UP PRESSED
-17:40:35  270 Adding to moving arrows list
-17:40:35  270 000002AEBCE1FDB0
-17:40:35  270 UP PRESSED
-17:40:35  271 Adding to moving arrows list
-17:40:35  271 000002AEBCE1FDB0
-17:40:35  271 UP PRESSED
-17:40:35  272 Adding to moving arrows list
-17:40:35  272 000002AEBCE1FDB0
-17:40:35  272 UP PRESSED
-17:40:35  273 Adding to moving arrows list
-17:40:35  273 000002AEBCE1FDB0
-17:40:35  273 UP PRESSED
-17:40:35  274 Adding to moving arrows list
-17:40:35  274 000002AEBCE1FDB0
-17:40:35  274 UP PRESSED
-17:40:35  275 Adding to moving arrows list
-17:40:35  275 000002AEBCE1FDB0
-17:40:35  275 UP PRESSED
-17:40:35  276 Adding to moving arrows list
-17:40:35  276 000002AEBCE1FDB0
-17:40:35  276 UP PRESSED
-17:40:35  277 Adding to moving arrows list
-17:40:35  277 000002AEBCE1FDB0
-17:40:35  277 UP PRESSED
-17:40:36  278 Adding to moving arrows list
-17:40:36  278 000002AEBCE1FDB0
-17:40:36  278 UP PRESSED
-17:40:36  279 Adding to moving arrows list
-17:40:36  279 000002AEBCE1FDB0
-17:40:36  279 UP PRESSED
-17:40:36  280 Adding to moving arrows list
-17:40:36  280 000002AEBCE1FDB0
-17:40:36  280 UP PRESSED
-17:40:36  281 Adding to moving arrows list
-17:40:36  281 000002AEBCF86FC0
-17:40:36  281 UP PRESSED
-17:40:36  282 Adding to moving arrows list
-17:40:36  282 000002AEBCF86FC0
-17:40:36  282 UP PRESSED
-17:40:36  283 Adding to moving arrows list
-17:40:36  283 000002AEBCF86FC0
-17:40:36  283 UP PRESSED
-17:40:36  284 Adding to moving arrows list
-17:40:36  284 000002AEBCF86FC0
-17:40:36  284 UP PRESSED
-17:40:36  285 Adding to moving arrows list
-17:40:36  285 000002AEBCF86FC0
-17:40:36  288 Adding to moving arrows list
-17:40:36  288 000002AEBCF86FC0
-17:40:36  288 Adding to moving arrows list
-17:40:36  288 000002AEBCF86FC0
-17:40:36  289 Adding to moving arrows list
-17:40:36  289 000002AEBCF86FC0
-17:40:36  290 Adding to moving arrows list
-17:40:36  290 000002AEBCF86FC0
-17:40:36  291 Adding to moving arrows list
-17:40:36  291 000002AEBCF86FC0
-17:40:36  292 Adding to moving arrows list
-17:40:36  292 000002AEBCF86FC0
-17:40:38  339 WorldManager::shutDown(): Successfully stopped.
-17:40:38  339 ** Game stopped **
-17:40:38  339 ****************************************************
+18:02:22    0 ****************************************************
+18:02:22    0 ** Dragonfly version 4.4 **
+18:02:24    0 GameManager::run(): Can't keep up! frame_time 33 ms, split 334 ms
+18:02:24    1 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+18:02:24    2 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+18:02:24    6 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+18:02:25   18 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+18:02:25   24 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+18:02:25   30 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+18:02:27   90 ResourceManager::loadSprite(): Loading sprite 'sprites/up_arrow_spr.txt'
+18:02:27   90 ResourceManager::loadSprite(): Loading sprite 'sprites/down_arrow_spr.txt'
+18:02:27   90 ResourceManager::loadSprite(): Loading sprite 'sprites/left_arrow_spr.txt'
+18:02:27   90 ResourceManager::loadSprite(): Loading sprite 'sprites/right_arrow_spr.txt'
+18:02:27   90 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
+18:02:27   90 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
+18:02:27   90 ResourceManager::loadSprite(): Loading sprite 'sprites/player_spr.txt'
+18:02:28   90 Pause::Pause(): Pause enabled.  Press any other key to resume.
+18:02:28   10 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+18:02:31   98 Adding to moving arrows list
+18:02:31   98 000001BB46023CA0
+18:02:31   99 Adding to moving arrows list
+18:02:31   99 000001BB46023CA0
+18:02:31  100 Adding to moving arrows list
+18:02:31  100 000001BB46023CA0
+18:02:31  101 Adding to moving arrows list
+18:02:31  101 000001BB46023CA0
+18:02:31  102 Adding to moving arrows list
+18:02:31  102 000001BB46023CA0
+18:02:31  103 Adding to moving arrows list
+18:02:31  103 000001BB46023CA0
+18:02:31  104 Adding to moving arrows list
+18:02:31  104 000001BB46023CA0
+18:02:32  133 Adding to moving arrows list
+18:02:32  133 000001BB46023CA0
+18:02:32  133 Adding to moving arrows list
+18:02:32  133 000001BB46023CA0
+18:02:32  134 Adding to moving arrows list
+18:02:32  134 000001BB46023CA0
+18:02:32  135 Adding to moving arrows list
+18:02:32  135 000001BB46023CA0
+18:02:32  136 Adding to moving arrows list
+18:02:32  136 000001BB46023CA0
+18:02:32  137 Adding to moving arrows list
+18:02:32  137 000001BB46023CA0
+18:02:32  138 Adding to moving arrows list
+18:02:32  138 000001BB46023CA0
+18:02:35  221 Adding to moving arrows list
+18:02:35  221 000001BB46023CA0
+18:02:35  221 Adding to moving arrows list
+18:02:35  221 000001BB46023CA0
+18:02:35  221 UP PRESSED
+18:02:35  222 Adding to moving arrows list
+18:02:35  222 000001BB46023CA0
+18:02:35  222 UP PRESSED
+18:02:35  223 Adding to moving arrows list
+18:02:35  223 000001BB46023CA0
+18:02:35  223 UP PRESSED
+18:02:35  224 Adding to moving arrows list
+18:02:35  224 000001BB46023CA0
+18:02:35  226 Adding to moving arrows list
+18:02:35  226 000001BB46023CA0
+18:02:35  226 Adding to moving arrows list
+18:02:35  226 000001BB46023CA0
+18:02:35  226 UP PRESSED
+18:02:35  227 Adding to moving arrows list
+18:02:35  227 000001BB46023CA0
+18:02:35  227 Adding to moving arrows list
+18:02:35  227 000001BB46023CA0
+18:02:35  227 DOWN PRESSED
+18:02:35  227 Adding to moving arrows list
+18:02:35  227 000001BB46023CA0
+18:02:35  227 UP PRESSED
+18:02:35  228 Adding to moving arrows list
+18:02:35  228 000001BB46023CA0
+18:02:35  228 Adding to moving arrows list
+18:02:35  228 000001BB46023CA0
+18:02:35  228 DOWN PRESSED
+18:02:35  229 Adding to moving arrows list
+18:02:35  229 000001BB46023CA0
+18:02:35  229 DOWN PRESSED
+18:02:35  230 Adding to moving arrows list
+18:02:35  230 000001BB46023CA0
+18:02:35  233 Adding to moving arrows list
+18:02:35  233 000001BB46023CA0
+18:02:35  233 Adding to moving arrows list
+18:02:35  233 000001BB46023CA0
+18:02:35  233 RIGHT PRESSED
+18:02:35  234 Adding to moving arrows list
+18:02:35  234 000001BB46023CA0
+18:02:35  234 RIGHT PRESSED
+18:02:35  235 Adding to moving arrows list
+18:02:35  235 000001BB46023CA0
+18:02:35  235 RIGHT PRESSED
+18:02:35  236 Adding to moving arrows list
+18:02:35  236 000001BB46023CA0
+18:02:38  310 WorldManager::shutDown(): Successfully stopped.
+18:02:38  310 ** Game stopped **
+18:02:38  310 ****************************************************

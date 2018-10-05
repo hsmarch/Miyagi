@@ -23,9 +23,11 @@ player::player() {
 	if (!p_temp_sprite)
 		LM.writeLog("player::player(): Warning! Sprite '%s' not found", "ship");
 	else {
-		setSprite(p_temp_sprite);
+		setSprite(p_temp_sprite, true);
+		
 		setSpriteSlowdown(3);  // 1/3 speed animation.
 		setTransparency();	   // Transparent sprite.
+		
 	}
 
 	// Player controls player, so register for input events.

@@ -26,7 +26,7 @@ up_arrow::up_arrow() {
   if (!p_temp_sprite)
     LM.writeLog("Saucer::Saucer(): Warning! Sprite '%s' not found", "up_arrow");
   else {
-    setSprite(p_temp_sprite);
+    setSprite(p_temp_sprite, true);
     setSpriteSlowdown(4);		
   }
 
