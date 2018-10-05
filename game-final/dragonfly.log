@@ -1,48 +1,699 @@
-18:37:19    0 ****************************************************
-18:37:19    0 ** Dragonfly version 4.4 **
-18:37:19    0 GameManager::run(): Can't keep up! frame_time 33 ms, split 346 ms
-18:37:19    1 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
-18:37:20   13 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
-18:37:20   14 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
-18:37:20   21 GameManager::run(): Can't keep up! frame_time 33 ms, split 44 ms
-18:37:20   22 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
-18:37:20   23 GameManager::run(): Can't keep up! frame_time 33 ms, split 44 ms
-18:37:20   24 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
-18:37:20   25 GameManager::run(): Can't keep up! frame_time 33 ms, split 41 ms
-18:37:20   26 GameManager::run(): Can't keep up! frame_time 33 ms, split 44 ms
-18:37:21   35 GameManager::run(): Can't keep up! frame_time 33 ms, split 43 ms
-18:37:21   36 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
-18:37:21   37 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
-18:37:21   38 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
-18:37:22   90 ResourceManager::loadSprite(): Loading sprite 'sprites/up_arrow_spr.txt'
-18:37:22   90 ResourceManager::loadSprite(): Loading sprite 'sprites/down_arrow_spr.txt'
-18:37:22   90 ResourceManager::loadSprite(): Loading sprite 'sprites/left_arrow_spr.txt'
-18:37:22   90 ResourceManager::loadSprite(): Loading sprite 'sprites/right_arrow_spr.txt'
-18:37:22   90 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
-18:37:22   90 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
-18:37:22   90 ResourceManager::loadSprite(): Loading sprite 'sprites/player_spr.txt'
-18:37:23   90 Pause::Pause(): Pause enabled.  Press any other key to resume.
-18:37:23    0 GameManager::run(): Can't keep up! frame_time 33 ms, split 41 ms
-18:37:24   30 Adding to moving arrows list
-18:37:24   30 000001FE71F5E6B0
-18:37:24   30 Adding to moving arrows list
-18:37:24   30 000001FE71F5E6B0
-18:37:24   31 Adding to moving arrows list
-18:37:24   31 000001FE71F5E6B0
-18:37:24   32 Adding to moving arrows list
-18:37:24   32 000001FE71F5E6B0
-18:37:24   33 Adding to moving arrows list
-18:37:24   33 000001FE71F5E6B0
-18:37:24   44 Adding to moving arrows list
-18:37:24   44 000001FE71F5E6B0
-18:37:24   44 Adding to moving arrows list
-18:37:24   44 000001FE71F5E6B0
-18:37:24   44 UP PRESSED
-18:37:24   44 000001FE71F5E6B0
-18:37:24   44 Checking Collision
-18:37:24   44 Collision Detected.
-18:37:24   45 UP PRESSED
-18:37:25   46 UP PRESSED
-18:37:27  116 WorldManager::shutDown(): Successfully stopped.
-18:37:27  116 ** Game stopped **
-18:37:27  116 ****************************************************
+18:44:38    0 ****************************************************
+18:44:38    0 ** Dragonfly version 4.4 **
+18:44:39    0 GameManager::run(): Can't keep up! frame_time 33 ms, split 330 ms
+18:44:39    1 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+18:44:39    2 GameManager::run(): Can't keep up! frame_time 33 ms, split 57 ms
+18:44:39    3 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+18:44:39   19 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+18:44:39   20 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+18:44:40   25 GameManager::run(): Can't keep up! frame_time 33 ms, split 43 ms
+18:44:40   26 GameManager::run(): Can't keep up! frame_time 33 ms, split 43 ms
+18:44:40   31 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+18:44:40   32 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
+18:44:40   33 GameManager::run(): Can't keep up! frame_time 33 ms, split 51 ms
+18:44:40   34 GameManager::run(): Can't keep up! frame_time 33 ms, split 42 ms
+18:44:42   90 ResourceManager::loadSprite(): Loading sprite 'sprites/up_arrow_spr.txt'
+18:44:42   90 ResourceManager::loadSprite(): Loading sprite 'sprites/down_arrow_spr.txt'
+18:44:42   90 ResourceManager::loadSprite(): Loading sprite 'sprites/left_arrow_spr.txt'
+18:44:42   90 ResourceManager::loadSprite(): Loading sprite 'sprites/right_arrow_spr.txt'
+18:44:42   90 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
+18:44:42   90 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
+18:44:42   90 ResourceManager::loadSprite(): Loading sprite 'sprites/player_spr.txt'
+18:44:42   90 Pause::Pause(): Pause enabled.  Press any other key to resume.
+18:44:42    0 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+18:44:44   36 Adding to moving arrows list
+18:44:44   36 0000026B894A6370
+18:44:44   37 Adding to moving arrows list
+18:44:44   37 0000026B894A6370
+18:44:44   38 Adding to moving arrows list
+18:44:44   38 0000026B894A6370
+18:44:44   39 Adding to moving arrows list
+18:44:44   39 0000026B894A6370
+18:44:45   73 Adding to moving arrows list
+18:44:45   73 0000026B894A6370
+18:44:45   73 Adding to moving arrows list
+18:44:45   73 0000026B894A6370
+18:44:45   73 UP PRESSED
+18:44:45   73 0000026B894A6370
+18:44:45   73 Checking Collision
+18:44:45   73 Collision Detected.
+18:44:45   74 Adding to moving arrows list
+18:44:45   74 0000026B894A6370
+18:44:45   74 UP PRESSED
+18:44:45   74 0000026B894A6370
+18:44:45   74 Checking Collision
+18:44:45   74 Collision Detected.
+18:44:45   75 Adding to moving arrows list
+18:44:45   75 0000026B894A6370
+18:44:45   75 UP PRESSED
+18:44:45   75 0000026B894A6370
+18:44:45   75 Checking Collision
+18:44:45   75 Collision Detected.
+18:44:45   76 Adding to moving arrows list
+18:44:45   76 0000026B894A6370
+18:44:45   76 UP PRESSED
+18:44:45   76 0000026B894A6370
+18:44:45   76 Checking Collision
+18:44:45   76 Collision Detected.
+18:44:45   77 Adding to moving arrows list
+18:44:45   77 0000026B894A6370
+18:44:45   77 UP PRESSED
+18:44:45   77 0000026B894A6370
+18:44:45   77 Checking Collision
+18:44:45   77 Collision Detected.
+18:44:45   78 Adding to moving arrows list
+18:44:45   78 0000026B894A6370
+18:44:45   78 UP PRESSED
+18:44:45   78 0000026B894A6370
+18:44:45   78 Checking Collision
+18:44:45   78 Collision Detected.
+18:44:45   79 Adding to moving arrows list
+18:44:45   79 0000026B894A6370
+18:44:45   79 UP PRESSED
+18:44:45   79 0000026B894A6370
+18:44:45   79 Checking Collision
+18:44:45   79 Collision Detected.
+18:44:45   80 Adding to moving arrows list
+18:44:45   80 0000026B894A6370
+18:44:45   80 UP PRESSED
+18:44:45   80 0000026B894A6370
+18:44:45   80 Checking Collision
+18:44:45   80 Collision Detected.
+18:44:45   81 Adding to moving arrows list
+18:44:45   81 0000026B894A6370
+18:44:45   81 UP PRESSED
+18:44:45   81 0000026B894A6370
+18:44:45   81 Checking Collision
+18:44:45   81 Collision Detected.
+18:44:45   82 Adding to moving arrows list
+18:44:45   82 0000026B894A6370
+18:44:45   82 UP PRESSED
+18:44:45   82 0000026B894A6370
+18:44:45   82 Checking Collision
+18:44:45   82 Collision Detected.
+18:44:45   83 Adding to moving arrows list
+18:44:45   83 0000026B894A6370
+18:44:45   83 UP PRESSED
+18:44:45   83 0000026B894A6370
+18:44:45   83 Checking Collision
+18:44:45   83 Collision Detected.
+18:44:45   84 Adding to moving arrows list
+18:44:45   84 0000026B894A6370
+18:44:45   84 UP PRESSED
+18:44:45   84 0000026B894A6370
+18:44:45   84 Checking Collision
+18:44:45   84 Collision Detected.
+18:44:45   85 Adding to moving arrows list
+18:44:45   85 0000026B894A6370
+18:44:45   85 UP PRESSED
+18:44:45   85 0000026B894A6370
+18:44:45   85 Checking Collision
+18:44:45   85 Collision Detected.
+18:44:45   86 Adding to moving arrows list
+18:44:45   86 0000026B894A6370
+18:44:45   86 UP PRESSED
+18:44:45   86 0000026B894A6370
+18:44:45   86 Checking Collision
+18:44:45   86 Collision Detected.
+18:44:45   87 Adding to moving arrows list
+18:44:45   87 0000026B894A6370
+18:44:45   87 UP PRESSED
+18:44:45   87 0000026B894A6370
+18:44:45   87 Checking Collision
+18:44:45   87 Collision Detected.
+18:44:45   88 Adding to moving arrows list
+18:44:45   88 0000026B894A6370
+18:44:45   88 UP PRESSED
+18:44:45   88 0000026B894A6370
+18:44:45   88 Checking Collision
+18:44:45   88 Collision Detected.
+18:44:45   89 Adding to moving arrows list
+18:44:45   89 0000026B894A6370
+18:44:45   89 UP PRESSED
+18:44:45   89 0000026B894A6370
+18:44:45   89 Checking Collision
+18:44:45   89 Collision Detected.
+18:44:45   90 Adding to moving arrows list
+18:44:45   90 0000026B894A6370
+18:44:45   90 UP PRESSED
+18:44:45   90 0000026B894A6370
+18:44:45   90 Checking Collision
+18:44:45   90 Collision Detected.
+18:44:45   91 Adding to moving arrows list
+18:44:45   91 0000026B894A6370
+18:44:45   91 UP PRESSED
+18:44:45   91 0000026B894A6370
+18:44:45   91 Checking Collision
+18:44:45   91 Collision Detected.
+18:44:45   92 Adding to moving arrows list
+18:44:45   92 0000026B894A6370
+18:44:45   92 UP PRESSED
+18:44:45   92 0000026B894A6370
+18:44:45   92 Checking Collision
+18:44:45   92 Collision Detected.
+18:44:45   93 Adding to moving arrows list
+18:44:45   93 0000026B894A6370
+18:44:45   93 UP PRESSED
+18:44:45   93 0000026B894A6370
+18:44:45   93 Checking Collision
+18:44:45   93 Collision Detected.
+18:44:45   94 Adding to moving arrows list
+18:44:45   94 0000026B894A6370
+18:44:45   94 UP PRESSED
+18:44:45   94 0000026B894A6370
+18:44:45   94 Checking Collision
+18:44:45   94 Collision Detected.
+18:44:45   95 Adding to moving arrows list
+18:44:45   95 0000026B894A6370
+18:44:45   95 UP PRESSED
+18:44:45   95 0000026B894A6370
+18:44:45   95 Checking Collision
+18:44:45   95 Collision Detected.
+18:44:45   96 Adding to moving arrows list
+18:44:45   96 0000026B894A6370
+18:44:45   96 UP PRESSED
+18:44:45   96 0000026B894A6370
+18:44:45   96 Checking Collision
+18:44:45   96 Collision Detected.
+18:44:46   97 Adding to moving arrows list
+18:44:46   97 0000026B894A6370
+18:44:46   97 UP PRESSED
+18:44:46   97 0000026B894A6370
+18:44:46   97 Checking Collision
+18:44:46   97 Collision Detected.
+18:44:46   98 Adding to moving arrows list
+18:44:46   98 0000026B894A6370
+18:44:46   98 UP PRESSED
+18:44:46   98 0000026B894A6370
+18:44:46   98 Checking Collision
+18:44:46   98 Collision Detected.
+18:44:46   99 Adding to moving arrows list
+18:44:46   99 0000026B894A6370
+18:44:46   99 UP PRESSED
+18:44:46   99 0000026B894A6370
+18:44:46   99 Checking Collision
+18:44:46   99 Collision Detected.
+18:44:46  100 Adding to moving arrows list
+18:44:46  100 0000026B894A6370
+18:44:46  100 UP PRESSED
+18:44:46  100 0000026B894A6370
+18:44:46  100 Checking Collision
+18:44:46  100 Collision Detected.
+18:44:46  101 Adding to moving arrows list
+18:44:46  101 0000026B894A6370
+18:44:46  101 UP PRESSED
+18:44:46  101 0000026B894A6370
+18:44:46  101 Checking Collision
+18:44:46  101 Collision Detected.
+18:44:46  102 Adding to moving arrows list
+18:44:46  102 0000026B894A6370
+18:44:46  102 UP PRESSED
+18:44:46  102 0000026B894A6370
+18:44:46  102 Checking Collision
+18:44:46  102 Collision Detected.
+18:44:46  103 Adding to moving arrows list
+18:44:46  103 0000026B894A6370
+18:44:46  103 UP PRESSED
+18:44:46  103 0000026B894A6370
+18:44:46  103 Checking Collision
+18:44:46  103 Collision Detected.
+18:44:46  104 Adding to moving arrows list
+18:44:46  104 0000026B894A6370
+18:44:46  104 UP PRESSED
+18:44:46  104 0000026B894A6370
+18:44:46  104 Checking Collision
+18:44:46  104 Collision Detected.
+18:44:46  105 Adding to moving arrows list
+18:44:46  105 0000026B894A6370
+18:44:46  105 UP PRESSED
+18:44:46  105 0000026B894A6370
+18:44:46  105 Checking Collision
+18:44:46  105 Collision Detected.
+18:44:46  106 Adding to moving arrows list
+18:44:46  106 0000026B894A6370
+18:44:46  106 UP PRESSED
+18:44:46  106 0000026B894A6370
+18:44:46  106 Checking Collision
+18:44:46  106 Collision Detected.
+18:44:46  107 Adding to moving arrows list
+18:44:46  107 0000026B894A6370
+18:44:46  107 UP PRESSED
+18:44:46  107 0000026B894A6370
+18:44:46  107 Checking Collision
+18:44:46  107 Collision Detected.
+18:44:46  108 Adding to moving arrows list
+18:44:46  108 0000026B894A6370
+18:44:46  108 UP PRESSED
+18:44:46  108 0000026B894A6370
+18:44:46  108 Checking Collision
+18:44:46  108 Collision Detected.
+18:44:46  109 Adding to moving arrows list
+18:44:46  109 0000026B894A6370
+18:44:46  109 UP PRESSED
+18:44:46  109 0000026B894A6370
+18:44:46  109 Checking Collision
+18:44:46  109 Collision Detected.
+18:44:46  110 Adding to moving arrows list
+18:44:46  110 0000026B894A6370
+18:44:46  110 UP PRESSED
+18:44:46  110 0000026B894A6370
+18:44:46  110 Checking Collision
+18:44:46  110 Collision Detected.
+18:44:46  111 Adding to moving arrows list
+18:44:46  111 0000026B894A6370
+18:44:46  111 UP PRESSED
+18:44:46  111 0000026B894A6370
+18:44:46  111 Checking Collision
+18:44:46  111 Collision Detected.
+18:44:46  112 Adding to moving arrows list
+18:44:46  112 0000026B894A6370
+18:44:46  112 UP PRESSED
+18:44:46  112 0000026B894A6370
+18:44:46  112 Checking Collision
+18:44:46  112 Collision Detected.
+18:44:46  113 Adding to moving arrows list
+18:44:46  113 0000026B894A6370
+18:44:46  113 UP PRESSED
+18:44:46  113 0000026B894A6370
+18:44:46  113 Checking Collision
+18:44:46  113 Collision Detected.
+18:44:46  114 Adding to moving arrows list
+18:44:46  114 0000026B894A6370
+18:44:46  114 UP PRESSED
+18:44:46  114 0000026B894A6370
+18:44:46  114 Checking Collision
+18:44:46  114 Collision Detected.
+18:44:46  115 Adding to moving arrows list
+18:44:46  115 0000026B894A6370
+18:44:46  115 UP PRESSED
+18:44:46  115 0000026B894A6370
+18:44:46  115 Checking Collision
+18:44:46  115 Collision Detected.
+18:44:46  116 Adding to moving arrows list
+18:44:46  116 0000026B894A6370
+18:44:46  116 UP PRESSED
+18:44:46  116 0000026B894A6370
+18:44:46  116 Checking Collision
+18:44:46  116 Collision Detected.
+18:44:46  117 Adding to moving arrows list
+18:44:46  117 0000026B894A6370
+18:44:46  117 UP PRESSED
+18:44:46  117 0000026B894A6370
+18:44:46  117 Checking Collision
+18:44:46  117 Collision Detected.
+18:44:46  118 Adding to moving arrows list
+18:44:46  118 0000026B894A6370
+18:44:46  118 UP PRESSED
+18:44:46  118 0000026B894A6370
+18:44:46  118 Checking Collision
+18:44:46  118 Collision Detected.
+18:44:46  119 Adding to moving arrows list
+18:44:46  119 0000026B894A6370
+18:44:46  119 UP PRESSED
+18:44:46  119 0000026B894A6370
+18:44:46  119 Checking Collision
+18:44:46  119 Collision Detected.
+18:44:46  120 Adding to moving arrows list
+18:44:46  120 0000026B894A6370
+18:44:46  120 UP PRESSED
+18:44:46  120 0000026B894A6370
+18:44:46  120 Checking Collision
+18:44:46  120 Collision Detected.
+18:44:46  121 Adding to moving arrows list
+18:44:46  121 0000026B894A6370
+18:44:46  121 UP PRESSED
+18:44:46  121 0000026B894A6370
+18:44:46  121 Checking Collision
+18:44:46  121 Collision Detected.
+18:44:46  122 Adding to moving arrows list
+18:44:46  122 0000026B894A6370
+18:44:46  122 UP PRESSED
+18:44:46  122 0000026B894A6370
+18:44:46  122 Checking Collision
+18:44:46  122 Collision Detected.
+18:44:46  123 Adding to moving arrows list
+18:44:46  123 0000026B894A6370
+18:44:46  123 UP PRESSED
+18:44:46  123 0000026B894A6370
+18:44:46  123 Checking Collision
+18:44:46  123 Collision Detected.
+18:44:46  124 Adding to moving arrows list
+18:44:46  124 0000026B894A6370
+18:44:46  124 UP PRESSED
+18:44:46  124 0000026B894A6370
+18:44:46  124 Checking Collision
+18:44:46  124 Collision Detected.
+18:44:46  125 Adding to moving arrows list
+18:44:46  125 0000026B894A6370
+18:44:46  125 UP PRESSED
+18:44:46  125 0000026B894A6370
+18:44:46  125 Checking Collision
+18:44:46  125 Collision Detected.
+18:44:46  126 Adding to moving arrows list
+18:44:46  126 0000026B894A6370
+18:44:46  126 UP PRESSED
+18:44:46  126 0000026B894A6370
+18:44:46  126 Checking Collision
+18:44:46  126 Collision Detected.
+18:44:47  127 Adding to moving arrows list
+18:44:47  127 0000026B894A6370
+18:44:47  127 UP PRESSED
+18:44:47  127 0000026B894A6370
+18:44:47  127 Checking Collision
+18:44:47  127 Collision Detected.
+18:44:47  128 Adding to moving arrows list
+18:44:47  128 0000026B894A6370
+18:44:47  128 UP PRESSED
+18:44:47  128 0000026B894A6370
+18:44:47  128 Checking Collision
+18:44:47  128 Collision Detected.
+18:44:47  129 Adding to moving arrows list
+18:44:47  129 0000026B894A6370
+18:44:47  129 UP PRESSED
+18:44:47  129 0000026B894A6370
+18:44:47  129 Checking Collision
+18:44:47  129 Collision Detected.
+18:44:47  130 Adding to moving arrows list
+18:44:47  130 0000026B894A6370
+18:44:47  130 UP PRESSED
+18:44:47  130 0000026B894A6370
+18:44:47  130 Checking Collision
+18:44:47  130 Collision Detected.
+18:44:47  131 Adding to moving arrows list
+18:44:47  131 0000026B894A6370
+18:44:47  131 UP PRESSED
+18:44:47  131 0000026B894A6370
+18:44:47  131 Checking Collision
+18:44:47  131 Collision Detected.
+18:44:47  132 Adding to moving arrows list
+18:44:47  132 0000026B894A6370
+18:44:47  132 UP PRESSED
+18:44:47  132 0000026B894A6370
+18:44:47  132 Checking Collision
+18:44:47  132 Collision Detected.
+18:44:47  133 Adding to moving arrows list
+18:44:47  133 0000026B894A6370
+18:44:47  133 UP PRESSED
+18:44:47  133 0000026B894A6370
+18:44:47  133 Checking Collision
+18:44:47  133 Collision Detected.
+18:44:47  134 Adding to moving arrows list
+18:44:47  134 0000026B894A6370
+18:44:47  134 UP PRESSED
+18:44:47  134 0000026B894A6370
+18:44:47  134 Checking Collision
+18:44:47  134 Collision Detected.
+18:44:47  135 Adding to moving arrows list
+18:44:47  135 0000026B894A6370
+18:44:47  135 UP PRESSED
+18:44:47  135 0000026B894A6370
+18:44:47  135 Checking Collision
+18:44:47  135 Collision Detected.
+18:44:47  136 Adding to moving arrows list
+18:44:47  136 0000026B894A6370
+18:44:47  136 UP PRESSED
+18:44:47  136 0000026B894A6370
+18:44:47  136 Checking Collision
+18:44:47  136 Collision Detected.
+18:44:47  137 Adding to moving arrows list
+18:44:47  137 0000026B894A6370
+18:44:47  137 UP PRESSED
+18:44:47  137 0000026B894A6370
+18:44:47  137 Checking Collision
+18:44:47  137 Collision Detected.
+18:44:47  138 Adding to moving arrows list
+18:44:47  138 0000026B894A6370
+18:44:47  138 UP PRESSED
+18:44:47  138 0000026B894A6370
+18:44:47  138 Checking Collision
+18:44:47  138 Collision Detected.
+18:44:47  139 Adding to moving arrows list
+18:44:47  139 0000026B894A6370
+18:44:47  139 UP PRESSED
+18:44:47  139 0000026B894A6370
+18:44:47  139 Checking Collision
+18:44:47  139 Collision Detected.
+18:44:47  140 Adding to moving arrows list
+18:44:47  140 0000026B894A6370
+18:44:47  140 UP PRESSED
+18:44:47  140 0000026B894A6370
+18:44:47  140 Checking Collision
+18:44:47  140 Collision Detected.
+18:44:47  141 Adding to moving arrows list
+18:44:47  141 0000026B894A6370
+18:44:47  141 UP PRESSED
+18:44:47  141 0000026B894A6370
+18:44:47  141 Checking Collision
+18:44:47  141 Collision Detected.
+18:44:47  142 Adding to moving arrows list
+18:44:47  142 0000026B894A6370
+18:44:47  142 UP PRESSED
+18:44:47  142 0000026B894A6370
+18:44:47  142 Checking Collision
+18:44:47  142 Collision Detected.
+18:44:47  143 Adding to moving arrows list
+18:44:47  143 0000026B894A6370
+18:44:47  143 UP PRESSED
+18:44:47  143 0000026B894A6370
+18:44:47  143 Checking Collision
+18:44:47  143 Collision Detected.
+18:44:47  144 Adding to moving arrows list
+18:44:47  144 0000026B894A6370
+18:44:47  144 UP PRESSED
+18:44:47  144 0000026B894A6370
+18:44:47  144 Checking Collision
+18:44:47  144 Collision Detected.
+18:44:47  145 Adding to moving arrows list
+18:44:47  145 0000026B894A6370
+18:44:47  145 UP PRESSED
+18:44:47  145 0000026B894A6370
+18:44:47  145 Checking Collision
+18:44:47  145 Collision Detected.
+18:44:47  146 Adding to moving arrows list
+18:44:47  146 0000026B894A6370
+18:44:47  146 UP PRESSED
+18:44:47  146 0000026B894A6370
+18:44:47  146 Checking Collision
+18:44:47  146 Collision Detected.
+18:44:47  147 Adding to moving arrows list
+18:44:47  147 0000026B894A6370
+18:44:47  147 UP PRESSED
+18:44:47  147 0000026B894A6370
+18:44:47  147 Checking Collision
+18:44:47  147 Collision Detected.
+18:44:47  148 Adding to moving arrows list
+18:44:47  148 0000026B894A6370
+18:44:47  148 UP PRESSED
+18:44:47  148 0000026B894A6370
+18:44:47  148 Checking Collision
+18:44:47  148 Collision Detected.
+18:44:47  149 Adding to moving arrows list
+18:44:47  149 0000026B894A6370
+18:44:47  149 UP PRESSED
+18:44:47  149 0000026B894A6370
+18:44:47  149 Checking Collision
+18:44:47  149 Collision Detected.
+18:44:47  150 Adding to moving arrows list
+18:44:47  150 0000026B894A6370
+18:44:47  150 UP PRESSED
+18:44:47  150 0000026B894A6370
+18:44:47  150 Checking Collision
+18:44:47  150 Collision Detected.
+18:44:47  151 Adding to moving arrows list
+18:44:47  151 0000026B894A6370
+18:44:47  151 UP PRESSED
+18:44:47  151 0000026B894A6370
+18:44:47  151 Checking Collision
+18:44:47  151 Collision Detected.
+18:44:47  152 Adding to moving arrows list
+18:44:47  152 0000026B894A6370
+18:44:47  152 UP PRESSED
+18:44:47  152 0000026B894A6370
+18:44:47  152 Checking Collision
+18:44:47  152 Collision Detected.
+18:44:47  153 Adding to moving arrows list
+18:44:47  153 0000026B894A6370
+18:44:47  153 UP PRESSED
+18:44:47  153 0000026B894A6370
+18:44:47  153 Checking Collision
+18:44:47  153 Collision Detected.
+18:44:47  154 Adding to moving arrows list
+18:44:47  154 0000026B894A6370
+18:44:47  154 UP PRESSED
+18:44:47  154 0000026B894A6370
+18:44:47  154 Checking Collision
+18:44:47  154 Collision Detected.
+18:44:47  155 Adding to moving arrows list
+18:44:47  155 0000026B894A6370
+18:44:47  155 UP PRESSED
+18:44:47  155 0000026B894A6370
+18:44:47  155 Checking Collision
+18:44:47  155 Collision Detected.
+18:44:47  156 Adding to moving arrows list
+18:44:47  156 0000026B894A6370
+18:44:47  156 UP PRESSED
+18:44:47  156 0000026B894A6370
+18:44:47  156 Checking Collision
+18:44:47  156 Collision Detected.
+18:44:48  157 Adding to moving arrows list
+18:44:48  157 0000026B894A6370
+18:44:48  157 UP PRESSED
+18:44:48  157 0000026B894A6370
+18:44:48  157 Checking Collision
+18:44:48  157 Collision Detected.
+18:44:48  158 Adding to moving arrows list
+18:44:48  158 0000026B894A6370
+18:44:48  158 UP PRESSED
+18:44:48  158 0000026B894A6370
+18:44:48  158 Checking Collision
+18:44:48  158 Collision Detected.
+18:44:48  159 Adding to moving arrows list
+18:44:48  159 0000026B894A6370
+18:44:48  159 UP PRESSED
+18:44:48  159 0000026B894A6370
+18:44:48  159 Checking Collision
+18:44:48  159 Collision Detected.
+18:44:48  160 Adding to moving arrows list
+18:44:48  160 0000026B894A6370
+18:44:48  160 UP PRESSED
+18:44:48  160 0000026B894A6370
+18:44:48  160 Checking Collision
+18:44:48  160 Collision Detected.
+18:44:48  161 Adding to moving arrows list
+18:44:48  161 0000026B894A6370
+18:44:48  161 UP PRESSED
+18:44:48  161 0000026B894A6370
+18:44:48  161 Checking Collision
+18:44:48  161 Collision Detected.
+18:44:48  162 Adding to moving arrows list
+18:44:48  162 0000026B894A6370
+18:44:48  162 UP PRESSED
+18:44:48  162 0000026B894A6370
+18:44:48  162 Checking Collision
+18:44:48  162 Collision Detected.
+18:44:48  163 Adding to moving arrows list
+18:44:48  163 0000026B894A6370
+18:44:48  163 UP PRESSED
+18:44:48  163 0000026B894A6370
+18:44:48  163 Checking Collision
+18:44:48  163 Collision Detected.
+18:44:48  164 Adding to moving arrows list
+18:44:48  164 0000026B894A6370
+18:44:48  164 UP PRESSED
+18:44:48  164 0000026B894A6370
+18:44:48  164 Checking Collision
+18:44:48  164 Collision Detected.
+18:44:48  165 Adding to moving arrows list
+18:44:48  165 0000026B894A6370
+18:44:48  165 UP PRESSED
+18:44:48  165 0000026B894A6370
+18:44:48  165 Checking Collision
+18:44:48  165 Collision Detected.
+18:44:48  166 Adding to moving arrows list
+18:44:48  166 0000026B894A6370
+18:44:48  166 UP PRESSED
+18:44:48  166 0000026B894A6370
+18:44:48  166 Checking Collision
+18:44:48  166 Collision Detected.
+18:44:48  167 Adding to moving arrows list
+18:44:48  167 0000026B894A6370
+18:44:48  167 UP PRESSED
+18:44:48  167 0000026B894A6370
+18:44:48  167 Checking Collision
+18:44:48  167 Collision Detected.
+18:44:48  168 Adding to moving arrows list
+18:44:48  168 0000026B894A6370
+18:44:48  168 UP PRESSED
+18:44:48  168 0000026B894A6370
+18:44:48  168 Checking Collision
+18:44:48  168 Collision Detected.
+18:44:48  169 Adding to moving arrows list
+18:44:48  169 0000026B894A6370
+18:44:48  169 UP PRESSED
+18:44:48  169 0000026B894A6370
+18:44:48  169 Checking Collision
+18:44:48  169 Collision Detected.
+18:44:48  170 Adding to moving arrows list
+18:44:48  170 0000026B894A6370
+18:44:48  170 UP PRESSED
+18:44:48  170 0000026B894A6370
+18:44:48  170 Checking Collision
+18:44:48  170 Collision Detected.
+18:44:48  171 Adding to moving arrows list
+18:44:48  171 0000026B894A6370
+18:44:48  171 UP PRESSED
+18:44:48  171 0000026B894A6370
+18:44:48  171 Checking Collision
+18:44:48  171 Collision Detected.
+18:44:48  172 Adding to moving arrows list
+18:44:48  172 0000026B894A6370
+18:44:48  172 UP PRESSED
+18:44:48  172 0000026B894A6370
+18:44:48  172 Checking Collision
+18:44:48  172 Collision Detected.
+18:44:48  173 Adding to moving arrows list
+18:44:48  173 0000026B894A6370
+18:44:48  173 UP PRESSED
+18:44:48  173 0000026B894A6370
+18:44:48  173 Checking Collision
+18:44:48  173 Collision Detected.
+18:44:48  174 Adding to moving arrows list
+18:44:48  174 0000026B894A6370
+18:44:48  174 UP PRESSED
+18:44:48  174 0000026B894A6370
+18:44:48  174 Checking Collision
+18:44:48  174 Collision Detected.
+18:44:48  175 Adding to moving arrows list
+18:44:48  175 0000026B894A6370
+18:44:48  175 UP PRESSED
+18:44:48  175 0000026B894A6370
+18:44:48  175 Checking Collision
+18:44:48  175 Collision Detected.
+18:44:48  176 Adding to moving arrows list
+18:44:48  176 0000026B894A6370
+18:44:48  176 UP PRESSED
+18:44:48  176 0000026B894A6370
+18:44:48  176 Checking Collision
+18:44:48  176 Collision Detected.
+18:44:48  177 Adding to moving arrows list
+18:44:48  177 0000026B894A6370
+18:44:48  177 UP PRESSED
+18:44:48  177 0000026B894A6370
+18:44:48  177 Checking Collision
+18:44:48  177 Collision Detected.
+18:44:48  178 Adding to moving arrows list
+18:44:48  178 0000026B894A6370
+18:44:48  178 UP PRESSED
+18:44:48  178 0000026B894A6370
+18:44:48  178 Checking Collision
+18:44:48  178 Collision Detected.
+18:44:48  179 Adding to moving arrows list
+18:44:48  179 0000026B894A6370
+18:44:48  179 UP PRESSED
+18:44:48  179 0000026B894A6370
+18:44:48  179 Checking Collision
+18:44:48  179 Collision Detected.
+18:44:48  180 Adding to moving arrows list
+18:44:48  180 0000026B894A6370
+18:44:48  180 UP PRESSED
+18:44:48  180 0000026B894A6370
+18:44:48  180 Checking Collision
+18:44:48  180 Verticals good!
+18:44:48  180 Collision Detected.
+18:44:48  181 UP PRESSED
+18:44:48  182 UP PRESSED
+18:44:48  183 UP PRESSED
+18:44:48  184 UP PRESSED
+18:44:48  185 UP PRESSED
+18:44:48  186 UP PRESSED
+18:44:49  187 UP PRESSED
+18:44:49  188 UP PRESSED
+18:44:49  189 UP PRESSED
+18:44:49  190 UP PRESSED
+18:44:49  191 UP PRESSED
+18:44:49  192 UP PRESSED
+18:44:49  193 UP PRESSED
+18:44:49  194 UP PRESSED
+18:44:51  267 WorldManager::shutDown(): Successfully stopped.
+18:44:51  267 ** Game stopped **
+18:44:51  267 ****************************************************

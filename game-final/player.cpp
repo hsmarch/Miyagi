@@ -85,12 +85,11 @@ void player::kbd(const df::EventKeyboard *p_keyboard_event) {
 			{
 				LM.writeLog("%p", moving_arrows_iterator.currentObject());
 				LM.writeLog("Checking Collision");
-				if (boxIntersectsBox(this->getBox(), moving_arrows_iterator.currentObject()->getBox())) {
-				
-					LM.writeLog("Collision Detected.");
+				if ( moving_arrows_iterator.currentObject()->getPosition().getY()+5 == this->getPosition().getY()) {
+					LM.writeLog("Verticals good!");
 					WM.markForDelete(moving_arrows_iterator.currentObject());
-
 				}
+			
 				oli.next();
 			}
 			break;
