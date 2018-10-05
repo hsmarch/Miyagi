@@ -86,37 +86,89 @@ void player::kbd(const df::EventKeyboard *p_keyboard_event) {
 			LM.writeLog("UP PRESSED");
 			df::ObjectListIterator moving_arrows_iterator(&moving_arrows);
 			for (moving_arrows_iterator.first(); !moving_arrows_iterator.isDone(); moving_arrows_iterator.next()) {
-				//moving_arrows_iterator.currentObject()->setBox(df::Box(moving_arrows_iterator.currentObject()->getPosition(), moving_arrows_iterator.currentObject()->getSprite()->getWidth(), moving_arrows_iterator.currentObject()->getSprite()->getHeight()));
-				LM.writeLog("%p", moving_arrows_iterator.currentObject());
-				LM.writeLog("%d,%d", moving_arrows_iterator.currentObject()->getBox().getHorizontal(), moving_arrows_iterator.currentObject()->getBox().getVertical());
-				LM.writeLog("Checking Collision");
-				if (moving_arrows_iterator.currentObject()->getPosition().getY() + 1 >= this->getPosition().getY()) {
-					LM.writeLog("Verticals good!");
-					WM.markForDelete(moving_arrows_iterator.currentObject());
-
-					//add points 
-					// Send "view" event with points to interested ViewObjects.
-					int accuracy = 10 - abs(this->getPosition().getY() - moving_arrows_iterator.currentObject()->getPosition().getY());
-					df::EventView ev(POINTS_STRING, 10 * accuracy, true);
-					WM.onEvent(&ev);
+				if (moving_arrows_iterator.currentObject()->getType() == "up_arrow") {
+					//moving_arrows_iterator.currentObject()->setBox(df::Box(moving_arrows_iterator.currentObject()->getPosition(), moving_arrows_iterator.currentObject()->getSprite()->getWidth(), moving_arrows_iterator.currentObject()->getSprite()->getHeight()));
+					LM.writeLog("Checking Collision");
+					if (moving_arrows_iterator.currentObject()->getPosition().getY() + 1 >= this->getPosition().getY()) {
+						LM.writeLog("Verticals good!");
+						WM.markForDelete(moving_arrows_iterator.currentObject());
+						//add points 
+						// Send "view" event with points to interested ViewObjects.
+						int accuracy = 10 - abs(this->getPosition().getY() - moving_arrows_iterator.currentObject()->getPosition().getY());
+						df::EventView ev(POINTS_STRING, 10 * accuracy, true);
+						WM.onEvent(&ev);
+					}
 				}
 			}
-
 			break;
 
 		}
 	case df::Keyboard::S:       // down
-		if (p_keyboard_event->getKeyboardAction() == df::KEY_DOWN)
+		if (p_keyboard_event->getKeyboardAction() == df::KEY_DOWN) {
 			LM.writeLog("DOWN PRESSED");
-		break;
+			df::ObjectListIterator moving_arrows_iterator(&moving_arrows);
+			for (moving_arrows_iterator.first(); !moving_arrows_iterator.isDone(); moving_arrows_iterator.next()) {
+				if (moving_arrows_iterator.currentObject()->getType() == "down_arrow") {
+					//moving_arrows_iterator.currentObject()->setBox(df::Box(moving_arrows_iterator.currentObject()->getPosition(), moving_arrows_iterator.currentObject()->getSprite()->getWidth(), moving_arrows_iterator.currentObject()->getSprite()->getHeight()));
+					LM.writeLog("Checking Collision");
+					if (moving_arrows_iterator.currentObject()->getPosition().getY() + 1 >= this->getPosition().getY()) {
+						LM.writeLog("Verticals good!");
+						WM.markForDelete(moving_arrows_iterator.currentObject());
+						//add points 
+						// Send "view" event with points to interested ViewObjects.
+						int accuracy = 10 - abs(this->getPosition().getY() - moving_arrows_iterator.currentObject()->getPosition().getY());
+						df::EventView ev(POINTS_STRING, 10 * accuracy, true);
+						WM.onEvent(&ev);
+					}
+				}
+			}
+			break;
+
+		}
 	case df::Keyboard::A:       // left
-		if (p_keyboard_event->getKeyboardAction() == df::KEY_DOWN)
+		if (p_keyboard_event->getKeyboardAction() == df::KEY_DOWN) {
 			LM.writeLog("LEFT PRESSED");
-		break;
-	case df::Keyboard::D:       // left
-		if (p_keyboard_event->getKeyboardAction() == df::KEY_DOWN)
+			df::ObjectListIterator moving_arrows_iterator(&moving_arrows);
+			for (moving_arrows_iterator.first(); !moving_arrows_iterator.isDone(); moving_arrows_iterator.next()) {
+				if (moving_arrows_iterator.currentObject()->getType() == "left_arrow") {
+					//moving_arrows_iterator.currentObject()->setBox(df::Box(moving_arrows_iterator.currentObject()->getPosition(), moving_arrows_iterator.currentObject()->getSprite()->getWidth(), moving_arrows_iterator.currentObject()->getSprite()->getHeight()));
+					LM.writeLog("Checking Collision");
+					if (moving_arrows_iterator.currentObject()->getPosition().getY() + 1 >= this->getPosition().getY()) {
+						LM.writeLog("Verticals good!");
+						WM.markForDelete(moving_arrows_iterator.currentObject());
+						//add points 
+						// Send "view" event with points to interested ViewObjects.
+						int accuracy = 10 - abs(this->getPosition().getY() - moving_arrows_iterator.currentObject()->getPosition().getY());
+						df::EventView ev(POINTS_STRING, 10 * accuracy, true);
+						WM.onEvent(&ev);
+					}
+				}
+			}
+			break;
+
+		}
+	case df::Keyboard::D:       // right
+		if (p_keyboard_event->getKeyboardAction() == df::KEY_DOWN) {
 			LM.writeLog("RIGHT PRESSED");
-		break;
+			df::ObjectListIterator moving_arrows_iterator(&moving_arrows);
+			for (moving_arrows_iterator.first(); !moving_arrows_iterator.isDone(); moving_arrows_iterator.next()) {
+				if (moving_arrows_iterator.currentObject()->getType() == "right_arrow") {
+					//moving_arrows_iterator.currentObject()->setBox(df::Box(moving_arrows_iterator.currentObject()->getPosition(), moving_arrows_iterator.currentObject()->getSprite()->getWidth(), moving_arrows_iterator.currentObject()->getSprite()->getHeight()));
+					LM.writeLog("Checking Collision");
+					if (moving_arrows_iterator.currentObject()->getPosition().getY() + 1 >= this->getPosition().getY()) {
+						LM.writeLog("Verticals good!");
+						WM.markForDelete(moving_arrows_iterator.currentObject());
+						//add points 
+						// Send "view" event with points to interested ViewObjects.
+						int accuracy = 10 - abs(this->getPosition().getY() - moving_arrows_iterator.currentObject()->getPosition().getY());
+						df::EventView ev(POINTS_STRING, 10 * accuracy, true);
+						WM.onEvent(&ev);
+					}
+				}
+			}
+			break;
+
+		}
 	case df::Keyboard::Q:        // quit
 		if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED) {
 			df::WorldManager &world_manager = df::WorldManager::getInstance();

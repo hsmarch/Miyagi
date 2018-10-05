@@ -163,7 +163,12 @@
     <ClInclude Include="..\Points.h" />
     <ClInclude Include="..\right_indicator.h" />
     <ClInclude Include="..\up_arrow.h" />
+<<<<<<< HEAD
     <ClInclude Include="..\up_indicator.h" />
+=======
+    <ClInclude Include="left_arrow.h" />
+    <ClInclude Include="right_arrow.h" />
+>>>>>>> a585fb1cef45eea4e7fbff9feb0df5b95fd9c1ba
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\down_arrow.cpp" />
@@ -173,7 +178,12 @@
     <ClCompile Include="..\player.cpp" />
     <ClCompile Include="..\Points.cpp" />
     <ClCompile Include="..\up_arrow.cpp" />
+<<<<<<< HEAD
     <ClCompile Include="..\up_indicator.cpp" />
+=======
+    <ClCompile Include="left_arrow.cpp" />
+    <ClCompile Include="right_arrow.cpp" />
+>>>>>>> a585fb1cef45eea4e7fbff9feb0df5b95fd9c1ba
   </ItemGroup>
   <ItemGroup>
     <Media Include="..\sounds\explode.wav" />
