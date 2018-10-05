@@ -153,40 +153,6 @@
       <AdditionalDependencies>sfml-system.lib;sfml-window.lib;sfml-graphics.lib;sfml-main.lib;sfml-audio.lib;sfml-network.lib;Winmm.lib;Ws2_32.lib;libdragonfly-x64-release.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\down_arrow.h" />
-    <ClInclude Include="..\GameOver.h" />
-    <ClInclude Include="..\GameStart.h" />
-    <ClInclude Include="..\player.h" />
-    <ClInclude Include="..\Points.h" />
-    <ClInclude Include="..\up_arrow.h" />
-    <ClInclude Include="left_arrow.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\down_arrow.cpp" />
-    <ClCompile Include="..\game.cpp" />
-    <ClCompile Include="..\GameOver.cpp" />
-    <ClCompile Include="..\GameStart.cpp" />
-    <ClCompile Include="..\player.cpp" />
-    <ClCompile Include="..\Points.cpp" />
-    <ClCompile Include="..\up_arrow.cpp" />
-    <ClCompile Include="left_arrow.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Media Include="..\sounds\explode.wav" />
-    <Media Include="..\sounds\fire.wav" />
-    <Media Include="..\sounds\game-over.wav" />
-    <Media Include="..\sounds\nuke.wav" />
-    <Media Include="..\sounds\start-music.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="..\sprites\bullet-spr.txt" />
-    <Text Include="..\sprites\explosion-spr.txt" />
-    <Text Include="..\sprites\gameover-spr.txt" />
-    <Text Include="..\sprites\gamestart-spr.txt" />
-    <Text Include="..\sprites\saucer-spr.txt" />
-    <Text Include="..\sprites\ship-spr.txt" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
