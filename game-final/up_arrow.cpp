@@ -29,7 +29,7 @@ up_arrow::up_arrow() {
     setSprite(p_temp_sprite, true);
     setSpriteSlowdown(4);
   }
-
+  //duh
   // Set object type.`
   setType("up_arrow");
   setSolidness(df::SPECTRAL);

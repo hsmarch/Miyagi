@@ -16,7 +16,7 @@
 #include "player.h"
 
 player::player() {
-
+	//reset
 	// Link to "ship" sprite.
 	df::Sprite *p_temp_sprite;
 	p_temp_sprite = RM.getSprite("player");

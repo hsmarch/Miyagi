@@ -26,7 +26,7 @@ int Points::eventHandler(const df::Event *p_e) {
   if (df::ViewObject::eventHandler(p_e)) {
     return 1;
   }
-
+  //blh
 
   // If get here, have ignored this event.
   return 0;

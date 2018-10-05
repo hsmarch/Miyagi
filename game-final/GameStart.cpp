@@ -79,7 +79,7 @@ void GameStart::start() {
     // When game starts, become inactive.
   setActive(false);
 }
-
+//start
 // Override default draw so as not to display "value".
 void GameStart::draw() {
   df::Object::draw();

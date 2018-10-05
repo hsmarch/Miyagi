@@ -17,7 +17,7 @@ void loadResources(void);
 void populateWorld(void);
  
 int main(int argc, char *argv[]) {
-
+	//help
   // Start up game manager.
   if (GM.startUp())  {
     LM.writeLog("Error starting game manager!");
