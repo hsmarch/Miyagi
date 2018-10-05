@@ -1,98 +1,48 @@
-18:02:22    0 ****************************************************
-18:02:22    0 ** Dragonfly version 4.4 **
-18:02:24    0 GameManager::run(): Can't keep up! frame_time 33 ms, split 334 ms
-18:02:24    1 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
-18:02:24    2 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
-18:02:24    6 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
-18:02:25   18 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
-18:02:25   24 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
-18:02:25   30 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
-18:02:27   90 ResourceManager::loadSprite(): Loading sprite 'sprites/up_arrow_spr.txt'
-18:02:27   90 ResourceManager::loadSprite(): Loading sprite 'sprites/down_arrow_spr.txt'
-18:02:27   90 ResourceManager::loadSprite(): Loading sprite 'sprites/left_arrow_spr.txt'
-18:02:27   90 ResourceManager::loadSprite(): Loading sprite 'sprites/right_arrow_spr.txt'
-18:02:27   90 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
-18:02:27   90 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
-18:02:27   90 ResourceManager::loadSprite(): Loading sprite 'sprites/player_spr.txt'
-18:02:28   90 Pause::Pause(): Pause enabled.  Press any other key to resume.
-18:02:28   10 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
-18:02:31   98 Adding to moving arrows list
-18:02:31   98 000001BB46023CA0
-18:02:31   99 Adding to moving arrows list
-18:02:31   99 000001BB46023CA0
-18:02:31  100 Adding to moving arrows list
-18:02:31  100 000001BB46023CA0
-18:02:31  101 Adding to moving arrows list
-18:02:31  101 000001BB46023CA0
-18:02:31  102 Adding to moving arrows list
-18:02:31  102 000001BB46023CA0
-18:02:31  103 Adding to moving arrows list
-18:02:31  103 000001BB46023CA0
-18:02:31  104 Adding to moving arrows list
-18:02:31  104 000001BB46023CA0
-18:02:32  133 Adding to moving arrows list
-18:02:32  133 000001BB46023CA0
-18:02:32  133 Adding to moving arrows list
-18:02:32  133 000001BB46023CA0
-18:02:32  134 Adding to moving arrows list
-18:02:32  134 000001BB46023CA0
-18:02:32  135 Adding to moving arrows list
-18:02:32  135 000001BB46023CA0
-18:02:32  136 Adding to moving arrows list
-18:02:32  136 000001BB46023CA0
-18:02:32  137 Adding to moving arrows list
-18:02:32  137 000001BB46023CA0
-18:02:32  138 Adding to moving arrows list
-18:02:32  138 000001BB46023CA0
-18:02:35  221 Adding to moving arrows list
-18:02:35  221 000001BB46023CA0
-18:02:35  221 Adding to moving arrows list
-18:02:35  221 000001BB46023CA0
-18:02:35  221 UP PRESSED
-18:02:35  222 Adding to moving arrows list
-18:02:35  222 000001BB46023CA0
-18:02:35  222 UP PRESSED
-18:02:35  223 Adding to moving arrows list
-18:02:35  223 000001BB46023CA0
-18:02:35  223 UP PRESSED
-18:02:35  224 Adding to moving arrows list
-18:02:35  224 000001BB46023CA0
-18:02:35  226 Adding to moving arrows list
-18:02:35  226 000001BB46023CA0
-18:02:35  226 Adding to moving arrows list
-18:02:35  226 000001BB46023CA0
-18:02:35  226 UP PRESSED
-18:02:35  227 Adding to moving arrows list
-18:02:35  227 000001BB46023CA0
-18:02:35  227 Adding to moving arrows list
-18:02:35  227 000001BB46023CA0
-18:02:35  227 DOWN PRESSED
-18:02:35  227 Adding to moving arrows list
-18:02:35  227 000001BB46023CA0
-18:02:35  227 UP PRESSED
-18:02:35  228 Adding to moving arrows list
-18:02:35  228 000001BB46023CA0
-18:02:35  228 Adding to moving arrows list
-18:02:35  228 000001BB46023CA0
-18:02:35  228 DOWN PRESSED
-18:02:35  229 Adding to moving arrows list
-18:02:35  229 000001BB46023CA0
-18:02:35  229 DOWN PRESSED
-18:02:35  230 Adding to moving arrows list
-18:02:35  230 000001BB46023CA0
-18:02:35  233 Adding to moving arrows list
-18:02:35  233 000001BB46023CA0
-18:02:35  233 Adding to moving arrows list
-18:02:35  233 000001BB46023CA0
-18:02:35  233 RIGHT PRESSED
-18:02:35  234 Adding to moving arrows list
-18:02:35  234 000001BB46023CA0
-18:02:35  234 RIGHT PRESSED
-18:02:35  235 Adding to moving arrows list
-18:02:35  235 000001BB46023CA0
-18:02:35  235 RIGHT PRESSED
-18:02:35  236 Adding to moving arrows list
-18:02:35  236 000001BB46023CA0
-18:02:38  310 WorldManager::shutDown(): Successfully stopped.
-18:02:38  310 ** Game stopped **
-18:02:38  310 ****************************************************
+18:37:19    0 ****************************************************
+18:37:19    0 ** Dragonfly version 4.4 **
+18:37:19    0 GameManager::run(): Can't keep up! frame_time 33 ms, split 346 ms
+18:37:19    1 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+18:37:20   13 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+18:37:20   14 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+18:37:20   21 GameManager::run(): Can't keep up! frame_time 33 ms, split 44 ms
+18:37:20   22 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+18:37:20   23 GameManager::run(): Can't keep up! frame_time 33 ms, split 44 ms
+18:37:20   24 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
+18:37:20   25 GameManager::run(): Can't keep up! frame_time 33 ms, split 41 ms
+18:37:20   26 GameManager::run(): Can't keep up! frame_time 33 ms, split 44 ms
+18:37:21   35 GameManager::run(): Can't keep up! frame_time 33 ms, split 43 ms
+18:37:21   36 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+18:37:21   37 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+18:37:21   38 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+18:37:22   90 ResourceManager::loadSprite(): Loading sprite 'sprites/up_arrow_spr.txt'
+18:37:22   90 ResourceManager::loadSprite(): Loading sprite 'sprites/down_arrow_spr.txt'
+18:37:22   90 ResourceManager::loadSprite(): Loading sprite 'sprites/left_arrow_spr.txt'
+18:37:22   90 ResourceManager::loadSprite(): Loading sprite 'sprites/right_arrow_spr.txt'
+18:37:22   90 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
+18:37:22   90 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
+18:37:22   90 ResourceManager::loadSprite(): Loading sprite 'sprites/player_spr.txt'
+18:37:23   90 Pause::Pause(): Pause enabled.  Press any other key to resume.
+18:37:23    0 GameManager::run(): Can't keep up! frame_time 33 ms, split 41 ms
+18:37:24   30 Adding to moving arrows list
+18:37:24   30 000001FE71F5E6B0
+18:37:24   30 Adding to moving arrows list
+18:37:24   30 000001FE71F5E6B0
+18:37:24   31 Adding to moving arrows list
+18:37:24   31 000001FE71F5E6B0
+18:37:24   32 Adding to moving arrows list
+18:37:24   32 000001FE71F5E6B0
+18:37:24   33 Adding to moving arrows list
+18:37:24   33 000001FE71F5E6B0
+18:37:24   44 Adding to moving arrows list
+18:37:24   44 000001FE71F5E6B0
+18:37:24   44 Adding to moving arrows list
+18:37:24   44 000001FE71F5E6B0
+18:37:24   44 UP PRESSED
+18:37:24   44 000001FE71F5E6B0
+18:37:24   44 Checking Collision
+18:37:24   44 Collision Detected.
+18:37:24   45 UP PRESSED
+18:37:25   46 UP PRESSED
+18:37:27  116 WorldManager::shutDown(): Successfully stopped.
+18:37:27  116 ** Game stopped **
+18:37:27  116 ****************************************************

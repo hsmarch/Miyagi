@@ -81,13 +81,14 @@ void player::kbd(const df::EventKeyboard *p_keyboard_event) {
 		if (p_keyboard_event->getKeyboardAction() == df::KEY_DOWN) {
 			LM.writeLog("UP PRESSED");
 			df::ObjectListIterator moving_arrows_iterator(&moving_arrows);
-			for (moving_arrows_iterator.first(); moving_arrows_iterator.isDone(); moving_arrows_iterator.next())
+			for (moving_arrows_iterator.first(); !moving_arrows_iterator.isDone(); moving_arrows_iterator.next())
 			{
+				LM.writeLog("%p", moving_arrows_iterator.currentObject());
 				LM.writeLog("Checking Collision");
 				if (boxIntersectsBox(this->getBox(), moving_arrows_iterator.currentObject()->getBox())) {
 				
 					LM.writeLog("Collision Detected.");
-					WM.markForDelete(oli.currentObject());
+					WM.markForDelete(moving_arrows_iterator.currentObject());
 
 				}
 				oli.next();
