@@ -27,13 +27,14 @@ up_arrow::up_arrow() {
     LM.writeLog("Saucer::Saucer(): Warning! Sprite '%s' not found", "up_arrow");
   else {
     setSprite(p_temp_sprite, true);
-    setSpriteSlowdown(4);		
+    setSpriteSlowdown(4);
   }
 
   // Set object type.
   setType("up_arrow");
   setSolidness(df::SPECTRAL);
-  setPosition(df::Vector(WM.getBoundary().getHorizontal() / 2,0));
+  setPosition(df::Vector((WM.getBoundary().getHorizontal() / 2)+4,0));
+  //down W/2+10
   // Set speed in horizontal direction.
   setVelocity(df::Vector(0,0.125)); // 1 space down every 8 frames
 }

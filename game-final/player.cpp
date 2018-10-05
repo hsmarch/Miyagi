@@ -24,10 +24,10 @@ player::player() {
 		LM.writeLog("player::player(): Warning! Sprite '%s' not found", "ship");
 	else {
 		setSprite(p_temp_sprite, true);
-		
+
 		setSpriteSlowdown(3);  // 1/3 speed animation.
 		setTransparency();	   // Transparent sprite.
-		
+
 	}
 
 	// Player controls player, so register for input events.
@@ -68,13 +68,13 @@ void player::kbd(const df::EventKeyboard *p_keyboard_event) {
 	df::ObjectList moving_arrows;
 	moving_arrows.clear();
 	for (oli.first(); !oli.isDone(); oli.next()) {
-		if (oli.currentObject()->getType() == "up_arrow") {
+		if (oli.currentObject()->getType() == "up_arrow" || oli.currentObject()->getType() == "down_arrow" || oli.currentObject()->getType() == "left_arrow" || oli.currentObject()->getType() == "right_arrow") {
 			moving_arrows.insert(oli.currentObject());
 			LM.writeLog("Adding to moving arrows list");
 			LM.writeLog("%p", oli.currentObject());
 		}
 	}
-	
+
 	switch (p_keyboard_event->getKey()) {
 		//check intersect boxes with all objs
 	case df::Keyboard::W:       // up
@@ -84,13 +84,15 @@ void player::kbd(const df::EventKeyboard *p_keyboard_event) {
 			for (moving_arrows_iterator.first(); !moving_arrows_iterator.isDone(); moving_arrows_iterator.next())
 			{
 				LM.writeLog("%p", moving_arrows_iterator.currentObject());
+				LM.writeLog("%d,%d", moving_arrows_iterator.currentObject()->getBox().getHorizontal(), moving_arrows_iterator.currentObject()->getBox().getVertical());
 				LM.writeLog("Checking Collision");
-				if ( moving_arrows_iterator.currentObject()->getPosition().getY()+5 == this->getPosition().getY()) {
-					LM.writeLog("Verticals good!");
-					WM.markForDelete(moving_arrows_iterator.currentObject());
+				if (moving_arrows_iterator.currentObject()->getType() == "up_arrow") {
+					if (moving_arrows_iterator.currentObject()->getPosition().getY() + 1 == this->getPosition().getY()) {
+						LM.writeLog("Verticals good!");
+						WM.markForDelete(moving_arrows_iterator.currentObject());
+					}
+					oli.next();
 				}
-			
-				oli.next();
 			}
 			break;
 		}
