@@ -157,22 +157,22 @@
     <ClInclude Include="..\down_arrow.h" />
     <ClInclude Include="..\GameOver.h" />
     <ClInclude Include="..\GameStart.h" />
+    <ClInclude Include="..\left_arrow.h" />
     <ClInclude Include="..\player.h" />
     <ClInclude Include="..\Points.h" />
+    <ClInclude Include="..\right_arrow.h" />
     <ClInclude Include="..\up_arrow.h" />
-    <ClInclude Include="left_arrow.h" />
-    <ClInclude Include="right_arrow.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\down_arrow.cpp" />
     <ClCompile Include="..\game.cpp" />
     <ClCompile Include="..\GameOver.cpp" />
     <ClCompile Include="..\GameStart.cpp" />
+    <ClCompile Include="..\left_arrow.cpp" />
     <ClCompile Include="..\player.cpp" />
     <ClCompile Include="..\Points.cpp" />
+    <ClCompile Include="..\right_arrow.cpp" />
     <ClCompile Include="..\up_arrow.cpp" />
-    <ClCompile Include="left_arrow.cpp" />
-    <ClCompile Include="right_arrow.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Media Include="..\sounds\explode.wav" />
