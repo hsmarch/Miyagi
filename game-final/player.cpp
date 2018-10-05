@@ -10,6 +10,9 @@
 #include "utility.h"
 #include "ObjectList.h"
 #include "ObjectListIterator.h"
+#include "EventView.h"
+#include "Points.h"
+#include <math.h>
 
 // Game includes.
 #include "GameOver.h"
@@ -89,14 +92,27 @@ void player::kbd(const df::EventKeyboard *p_keyboard_event) {
 				LM.writeLog("%p", moving_arrows_iterator.currentObject());
 				LM.writeLog("%d,%d", moving_arrows_iterator.currentObject()->getBox().getHorizontal(), moving_arrows_iterator.currentObject()->getBox().getVertical());
 				LM.writeLog("Checking Collision");
+<<<<<<< HEAD
+				if ( moving_arrows_iterator.currentObject()->getPosition().getY()+5 == this->getPosition().getY()) {
+					LM.writeLog("Verticals good!");
+					WM.markForDelete(moving_arrows_iterator.currentObject());
+
+					//add points 
+					// Send "view" event with points to interested ViewObjects.
+					int accuracy = 10 - abs(this->getPosition().getY() - moving_arrows_iterator.currentObject()->getPosition().getY());
+					df::EventView ev(POINTS_STRING, 10*accuracy , true);
+					WM.onEvent(&ev);
+=======
 				if (moving_arrows_iterator.currentObject()->getType() == "up_arrow") {
 					if (moving_arrows_iterator.currentObject()->getPosition().getY() + 1 == this->getPosition().getY()) {
 						LM.writeLog("Verticals good!");
 						WM.markForDelete(moving_arrows_iterator.currentObject());
 					}
 					oli.next();
+>>>>>>> 3dc8b33cbad42ba4cbf1d7f5c24efe1832376639
 				}
 			}
+
 			break;
 		}
 	case df::Keyboard::S:       // down
