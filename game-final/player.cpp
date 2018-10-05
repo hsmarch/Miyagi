@@ -57,32 +57,39 @@ int player::eventHandler(const df::Event *p_e) {
 	return 0;
 }
 
-/**void player::wtf() {
-	df::ObjectList moving_arrows;
-	df::ObjectListIterator oli(&WM.getAllObjects());
-	for (oli.first(); !oli.isDone(); oli.next()) {
-		if (oli.currentObject()->getType() == "up_arrow") {
-			moving_arrows.insert(oli.currentObject());
-		}
-	}
-	df::ObjectListIterator moving_arrows_iterator(&moving_arrows);
-	for (moving_arrows_iterator.first(); moving_arrows_iterator.isDone(); moving_arrows_iterator.next())
-	{
-		if (boxIntersectsBox(this->getBox(), oli.currentObject()->getBox())) {
-			WM.markForDelete(oli.currentObject());
-		}
-		oli.next();
-	}
-}
-**/
+
 
 // Take appropriate action according to key pressed.
 void player::kbd(const df::EventKeyboard *p_keyboard_event) {
+	df::ObjectList all_objects = WM.getAllObjects();
+	df::ObjectListIterator oli(&all_objects);
+	df::ObjectList moving_arrows;
+	moving_arrows.clear();
+	for (oli.first(); !oli.isDone(); oli.next()) {
+		if (oli.currentObject()->getType() == "up_arrow") {
+			moving_arrows.insert(oli.currentObject());
+			LM.writeLog("Adding to moving arrows list");
+			LM.writeLog("%p", oli.currentObject());
+		}
+	}
+	
 	switch (p_keyboard_event->getKey()) {
 		//check intersect boxes with all objs
 	case df::Keyboard::W:       // up
 		if (p_keyboard_event->getKeyboardAction() == df::KEY_DOWN) {
 			LM.writeLog("UP PRESSED");
+			df::ObjectListIterator moving_arrows_iterator(&moving_arrows);
+			for (moving_arrows_iterator.first(); moving_arrows_iterator.isDone(); moving_arrows_iterator.next())
+			{
+				LM.writeLog("Checking Collision");
+				if (boxIntersectsBox(this->getBox(), moving_arrows_iterator.currentObject()->getBox())) {
+				
+					LM.writeLog("Collision Detected.");
+					WM.markForDelete(oli.currentObject());
+
+				}
+				oli.next();
+			}
 			break;
 		}
 	case df::Keyboard::S:       // down
@@ -101,6 +108,7 @@ void player::kbd(const df::EventKeyboard *p_keyboard_event) {
 		if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED) {
 			df::WorldManager &world_manager = df::WorldManager::getInstance();
 			world_manager.markForDelete(this);
+			new GameOver;
 		}
 		break;
 	};

@@ -35,7 +35,7 @@ up_arrow::up_arrow() {
   setSolidness(df::SPECTRAL);
   setPosition(df::Vector(WM.getBoundary().getHorizontal() / 2,0));
   // Set speed in horizontal direction.
-  setVelocity(df::Vector(0,0.125)); // 1 space down every 4 frames
+  setVelocity(df::Vector(0,0.125)); // 1 space down every 8 frames
 }
 up_arrow::~up_arrow() {
 
@@ -63,6 +63,7 @@ void up_arrow::out() {
 	// If haven't moved off left edge, then nothing to do.
 	if (getPosition().getY() < WM.getBoundary().getVertical()-1)
 		return;
+	new up_arrow;
 
 	WM.markForDelete(this);
 }
