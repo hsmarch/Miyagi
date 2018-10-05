@@ -1,16 +1,107 @@
-16:53:07    0 ****************************************************
-16:53:07    0 ** Dragonfly version 4.4 **
-16:53:09    0 GameManager::run(): Can't keep up! frame_time 33 ms, split 307 ms
-16:53:09    1 GameManager::run(): Can't keep up! frame_time 33 ms, split 38 ms
-16:53:09    2 GameManager::run(): Can't keep up! frame_time 33 ms, split 35 ms
-16:53:10   19 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
-16:53:10   22 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
-16:53:10   29 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
-16:53:10   36 ResourceManager::loadSprite(): Loading sprite 'sprites/up_arrow_spr.txt'
-16:53:10   36 ResourceManager::loadSprite(): Loading sprite 'sprites/down_arrow_spr.txt'
-16:53:10   36 ResourceManager::loadSprite(): Loading sprite 'sprites/left_arrow_spr.txt'
-16:53:10   36 ResourceManager::loadSprite(): Loading sprite 'sprites/right_arrow_spr.txt'
-16:53:10   36 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
-16:53:10   36 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
-16:53:10   36 ResourceManager::loadSprite(): Loading sprite 'sprites/player_spr.txt'
-16:53:11   36 Pause::Pause(): Pause enabled.  Press any other key to resume.
+17:02:21    0 ****************************************************
+17:02:21    0 ** Dragonfly version 4.4 **
+17:02:23    0 GameManager::run(): Can't keep up! frame_time 33 ms, split 331 ms
+17:02:24   19 GameManager::run(): Can't keep up! frame_time 33 ms, split 46 ms
+17:02:24   20 GameManager::run(): Can't keep up! frame_time 33 ms, split 33 ms
+17:02:24   21 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+17:02:24   24 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+17:02:24   25 GameManager::run(): Can't keep up! frame_time 33 ms, split 46 ms
+17:02:24   26 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+17:02:24   30 GameManager::run(): Can't keep up! frame_time 33 ms, split 47 ms
+17:02:26   90 ResourceManager::loadSprite(): Loading sprite 'sprites/up_arrow_spr.txt'
+17:02:26   90 ResourceManager::loadSprite(): Loading sprite 'sprites/down_arrow_spr.txt'
+17:02:26   90 ResourceManager::loadSprite(): Loading sprite 'sprites/left_arrow_spr.txt'
+17:02:26   90 ResourceManager::loadSprite(): Loading sprite 'sprites/right_arrow_spr.txt'
+17:02:26   90 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'
+17:02:26   90 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'
+17:02:26   90 ResourceManager::loadSprite(): Loading sprite 'sprites/player_spr.txt'
+17:02:27   90 Pause::Pause(): Pause enabled.  Press any other key to resume.
+17:02:28   54 LEFT PRESSED
+17:02:28   55 LEFT PRESSED
+17:02:28   55 UP PRESSED
+17:02:28   56 LEFT PRESSED
+17:02:28   56 UP PRESSED
+17:02:28   57 LEFT PRESSED
+17:02:28   57 UP PRESSED
+17:02:28   58 LEFT PRESSED
+17:02:28   58 UP PRESSED
+17:02:28   59 LEFT PRESSED
+17:02:29   60 LEFT PRESSED
+17:02:29   61 LEFT PRESSED
+17:02:29   62 LEFT PRESSED
+17:02:29   63 LEFT PRESSED
+17:02:29   64 DOWN PRESSED
+17:02:29   65 DOWN PRESSED
+17:02:29   66 DOWN PRESSED
+17:02:29   67 LEFT PRESSED
+17:02:29   67 DOWN PRESSED
+17:02:29   68 LEFT PRESSED
+17:02:29   69 LEFT PRESSED
+17:02:29   70 LEFT PRESSED
+17:02:29   71 LEFT PRESSED
+17:02:29   71 DOWN PRESSED
+17:02:29   72 RIGHT PRESSED
+17:02:29   72 DOWN PRESSED
+17:02:29   73 RIGHT PRESSED
+17:02:29   74 RIGHT PRESSED
+17:02:29   75 RIGHT PRESSED
+17:02:29   76 LEFT PRESSED
+17:02:29   76 RIGHT PRESSED
+17:02:29   77 LEFT PRESSED
+17:02:29   78 LEFT PRESSED
+17:02:29   78 UP PRESSED
+17:02:29   79 UP PRESSED
+17:02:29   80 UP PRESSED
+17:02:29   81 UP PRESSED
+17:02:29   82 LEFT PRESSED
+17:02:29   82 UP PRESSED
+17:02:29   83 LEFT PRESSED
+17:02:29   84 LEFT PRESSED
+17:02:29   85 LEFT PRESSED
+17:02:29   87 LEFT PRESSED
+17:02:29   88 LEFT PRESSED
+17:02:29   89 LEFT PRESSED
+17:02:30   90 LEFT PRESSED
+17:02:30   91 LEFT PRESSED
+17:02:30   91 UP PRESSED
+17:02:30   92 LEFT PRESSED
+17:02:30   92 UP PRESSED
+17:02:30   93 UP PRESSED
+17:02:30   94 UP PRESSED
+17:02:30   95 LEFT PRESSED
+17:02:30   95 UP PRESSED
+17:02:30   96 LEFT PRESSED
+17:02:30   96 RIGHT PRESSED
+17:02:30   96 UP PRESSED
+17:02:30   97 LEFT PRESSED
+17:02:30   97 RIGHT PRESSED
+17:02:30   97 UP PRESSED
+17:02:30   98 RIGHT PRESSED
+17:02:30   99 LEFT PRESSED
+17:02:30   99 RIGHT PRESSED
+17:02:30  100 LEFT PRESSED
+17:02:30  101 LEFT PRESSED
+17:02:30  102 LEFT PRESSED
+17:02:30  102 DOWN PRESSED
+17:02:30  103 DOWN PRESSED
+17:02:30  104 LEFT PRESSED
+17:02:30  105 LEFT PRESSED
+17:02:30  106 LEFT PRESSED
+17:02:30  107 LEFT PRESSED
+17:02:30  108 LEFT PRESSED
+17:02:30  109 LEFT PRESSED
+17:02:30  110 LEFT PRESSED
+17:02:30  110 UP PRESSED
+17:02:30  111 UP PRESSED
+17:02:30  112 UP PRESSED
+17:02:30  113 UP PRESSED
+17:02:30  114 LEFT PRESSED
+17:02:30  115 LEFT PRESSED
+17:02:30  116 LEFT PRESSED
+17:02:30  116 UP PRESSED
+17:02:30  117 LEFT PRESSED
+17:02:30  117 UP PRESSED
+17:02:30  118 UP PRESSED
+17:02:35  240 WorldManager::shutDown(): Successfully stopped.
+17:02:35  240 ** Game stopped **
+17:02:35  240 ****************************************************

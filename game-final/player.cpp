@@ -57,31 +57,32 @@ int player::eventHandler(const df::Event *p_e) {
 	return 0;
 }
 
-
+/**void player::wtf() {
+	df::ObjectList moving_arrows;
+	df::ObjectListIterator oli(&WM.getAllObjects());
+	for (oli.first(); !oli.isDone(); oli.next()) {
+		if (oli.currentObject()->getType() == "up_arrow") {
+			moving_arrows.insert(oli.currentObject());
+		}
+	}
+	df::ObjectListIterator moving_arrows_iterator(&moving_arrows);
+	for (moving_arrows_iterator.first(); moving_arrows_iterator.isDone(); moving_arrows_iterator.next())
+	{
+		if (boxIntersectsBox(this->getBox(), oli.currentObject()->getBox())) {
+			WM.markForDelete(oli.currentObject());
+		}
+		oli.next();
+	}
+}
+**/
 
 // Take appropriate action according to key pressed.
 void player::kbd(const df::EventKeyboard *p_keyboard_event) {
-	
-		df::ObjectList moving_arrows;
-		df::ObjectListIterator oli(&WM.getAllObjects());
-		for (oli.first(); !oli.isDone(); oli.next()) {
-			if (oli.currentObject()->getType() == "up_arrow") {
-				moving_arrows.insert(oli.currentObject());
-			}
-		}
-	
-	df::ObjectListIterator moving_arrows_iterator(&moving_arrows);
 	switch (p_keyboard_event->getKey()) {
 		//check intersect boxes with all objs
 	case df::Keyboard::W:       // up
 		if (p_keyboard_event->getKeyboardAction() == df::KEY_DOWN) {
-			for (moving_arrows_iterator.first(); moving_arrows_iterator.isDone(); moving_arrows_iterator.next())
-			{
-				if (boxIntersectsBox(this->getBox(), oli.currentObject()->getBox())) {
-					WM.markForDelete(oli.currentObject());
-				}
-				oli.next();
-			}
+			LM.writeLog("UP PRESSED");
 			break;
 		}
 	case df::Keyboard::S:       // down
@@ -102,10 +103,10 @@ void player::kbd(const df::EventKeyboard *p_keyboard_event) {
 			world_manager.markForDelete(this);
 		}
 		break;
-		};
+	};
 
-		return;
-	}
+	return;
+}
 
 
 
