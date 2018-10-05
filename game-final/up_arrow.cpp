@@ -36,13 +36,10 @@ up_arrow::up_arrow() {
   setVelocity(df::Vector(0,0.125)); // 1 space down every 8 frames
 }
 up_arrow::~up_arrow() {
-<<<<<<< HEAD
-=======
   // Send "view" event with points to interested ViewObjects.
   // Add 10 points.
   df::EventView ev(POINTS_STRING, -10, true);
   WM.onEvent(&ev);
->>>>>>> 3dc8b33cbad42ba4cbf1d7f5c24efe1832376639
 }
 
 

@@ -39,7 +39,7 @@ down_arrow::down_arrow()
 	// Set object type.
 	setType("down_arrow");
 	setSolidness(df::SPECTRAL);
-	setPosition(df::Vector(WM.getBoundary().getHorizontal() / 2 + 3, 0));
+	setPosition(df::Vector(WM.getBoundary().getHorizontal() / 2 + 10, 0));
 	// Set speed in horizontal direction.
 	setVelocity(df::Vector(0, 0.125)); // 1 space down every 8 frames
 }
