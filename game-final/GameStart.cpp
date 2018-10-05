@@ -17,6 +17,7 @@
 #include "Points.h"
 #include "up_arrow.h"
 #include "down_arrow.h"
+#include "up_indicator.h"
 
 GameStart::GameStart() {
 	setType("GameStart");
@@ -71,7 +72,7 @@ int GameStart::eventHandler(const df::Event *p_e) {
 
 void GameStart::start() {
 	// Create player.
-	new player;
+	new up_indicator;
 	// Setup heads-up display.
 	new Points;		                     // Points display.
 	new up_arrow;
